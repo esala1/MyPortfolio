@@ -1,68 +1,261 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Eliyas-Projects</title>
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-    
+  <meta charset="utf-8">
+  <title>Eliyas Portfolio Website</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/68b09e34bc.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm justify-content-center" >
-        <ul class="navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a class="li-contact" href="">Contact</a></li>
-        </ul>
-    </nav>
-<!--keep track of the given height value here and allocation of it below-->
-    
-<div class="entire">
-  
-    <div id="text">
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">myPortfolio</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading"><span class="myhello">Hello</span>! My name is Eliyas Sala.</h1>
+          <a href="#pricing"> <button type="button" class="btn btn-outline-info btn-lg download-button"> View Projects</button> </a>
+          <a href="#footer"><button type="button" class="btn btn-outline-warning btn-lg download-button"> Contact</button> </a>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/pic2.jpg">
+        </div>
+
+      </div>
+
     </div>
-    <a class="link-learn" href="aboutme_edit">LEARN MORE</a>
-    <a class = "link-projects" href="edit">VIEW PROJECTS</a>
-    <script type="text/javascript">
-  var i = 0,text;
-   text ="Hello! My name is Eliyas Sala. I am a computer science student.";  
-  function typing() {
-    if (i < text.length) {
-      document.getElementById("text").innerHTML += text.charAt(i);
-      i++;
-      setTimeout(typing, 60);
-    }
-  }
-  typing();
-    </script>
-    </div>     
-            <section class="about">
-              <img src="images/pic2.jpg" alt="">
-              <div class="about-text">
-                <h1>About Me</h1>
-                  <p>Initially a mathematics major, I discovered my keen interest in computer science later on. 
-                   However, I did not let time constrain me from acquiring skills in programming languages, 
-                   frameworks, and other developmental tools. In this broad field of evolving technology, 
-                   object-oriented software development has especially captured my focus of study. Commitment-driven and highly analytical, 
-                   I am seeking software engineering positions where I can work with other spirited programmers. 
-                  </p>    
-                  <h2>Experience With</h2>     
-              </div>
-            </section>
-          <section class="project-section">
 
-          <section>
+  </section>
 
+  <!--About me-->
+    <section id="aboutme">
+      <div class="container-fluid">
+       
+          <h1 class="feature-me">About</h1>
+          <p>
+            Initially a mathematics major, I discovered my keen interest in computer science later on. 
+            However, I did not let time constrain me from acquiring skills in programming languages, 
+            frameworks, and other developmental tools. In this broad field of evolving technology, 
+            object-oriented software development has especially captured my focus of study. Commitment-driven and highly analytical, 
+            I am seeking software engineering positions where I can work with other spirited programmers. 
+          </p>
+      </div>
+    </section>
+
+  <!-- Tools -->
+
+  <section id="features">
+
+    <div class="container-fluid">
+    <h1 class="exp">Experience With</h1>
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="fab fa-java"></i>
+          <h3 class="feature-title">Java</h3>
+          
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="fab fa-html5"></i>
+          <h3 class="feature-title">Html 5</h3>
+         
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="fab fa-css3-alt"></i>
+          <h3 class="feature-title">Css 3</h3>
+         
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="fab fa-bootstrap"></i>
+          <h3 class="feature-title">Bootstrap 4</h3>
+         
+        </div>
+
+        
+        <div class="feature-box col-lg-4">
+          <i class="fab fa-github"></i>
+          <h3 class="feature-title">Github</h3>
+         
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Projects -->
+
+  <section  id="pricing">
+<h1 class="projects">Projects</h1>
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3> Sorting Visualizer</h3>
+          </div>
+          <div class="card-body">
+            <h4>My Favorite</h4>
+            <p>Using blah [blah technologies], I developed ...</p>
+            
+            <button class="btn btn-lg btn-block btn-outline-info" type="button">See in Github</button>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">See in Site</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3> Biometric ATM GUI [perhaps edit title]</h3>
+          </div>
+          <div class="card-body">
+            <p>Using blah [blah technologies], I developed ...</p>
+            
+            <button class="btn btn-lg btn-block btn-outline-info" type="button">See in Github</button>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">See in Site</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3> [edit here] Coronavirus-related</h3>
+          </div>
+          <div class="card-body">
+            <p>Using blah [blah technologies], I developed ...</p>
+            
+            <button class="btn btn-lg btn-block btn-outline-info" type="button">See in Github</button>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">See in Site</button>
+          </div>
+        </div> 
+      </div>
+
+    </div>
+
+
+
+    <!--row2-->
+<div class="row">
+
+  <div class="pricing-column col-lg-4 col-md-6">
+    <div class="card">
+      <div class="card-header">
+        <h3> Sorting Visualizer</h3>
+      </div>
+      <div class="card-body">
+        <h4>My Favorite</h4>
+        <p>Using blah [blah technologies], I developed ...</p>
+        
+        <button class="btn btn-lg btn-block btn-outline-info" type="button">See in Github</button>
+        <button class="btn btn-lg btn-block btn-outline-dark" type="button">See in Site</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-column col-lg-4 col-md-6">
+    <div class="card">
+      <div class="card-header">
+        <h3> Biometric ATM GUI [perhaps edit title]</h3>
+      </div>
+      <div class="card-body">
+        <p>Using blah [blah technologies], I developed ...</p>
+        
+        <button class="btn btn-lg btn-block btn-outline-info" type="button">See in Github</button>
+        <button class="btn btn-lg btn-block btn-outline-dark" type="button">See in Site</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-column col-lg-4">
+    <div class="card">
+      <div class="card-header">
+        <h3> [edit here] Coronavirus-related</h3>
+      </div>
+      <div class="card-body">
+        <p>Using blah [blah technologies], I developed ...</p>
+        
+        <button class="btn btn-lg btn-block btn-outline-info" type="button">See in Github</button>
+        <button class="btn btn-lg btn-block btn-outline-dark" type="button">See in Site</button>
+      </div>
+    </div>
+ 
+  </div>
 </div>
 
+  </section>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <!-- Footer -->
+
+  <footer  id="footer">
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Contact me</h3>
+      <a href="https://www.linkedin.com/in/eliyas-sala-0593a5186/"> <button class="download-button btn btn-lg btn-warning" type="button"> <i id= "cpage" class="fab fa-linkedin-in"></i> Linkedin </button> </a>
+      <a href="https://github.com/esala1"><button class="download-button btn btn-lg btn-warning" type="button"><i id= "cpage" class="fab fa-github"></i> Github</button></a>
+      <a href = "mailto:eliyas54045@gmail.com?subject = Feedback&body = Message"><button class="download-button btn btn-lg btn-warning" type="button"> <i id= "cpage" class="fas fa-envelope"></i> Email me </button></a>
+    </div>
+    <div class="container-fluid">
+      
+      <p>© Copyright 2020 Eliyas Portfolio</p>
+    </div>
+  </footer>
+
+
 </body>
+
 </html>

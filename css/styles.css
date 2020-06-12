@@ -1,0 +1,181 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #e3e6cf;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: rgb(255, 255, 255);
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #1c103b;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+.myhello{
+  text-decoration: underline;
+  text-decoration-color: rgb(14, 46, 226);
+  
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(0deg);
+  position: absolute;
+  right: 30%;
+  border-radius: 50%;
+}
+#aboutme{
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 0px;
+}
+#aboutme p{
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+/* Features Section  */
+.exp{
+  padding-bottom: px;
+  color: rgb(160, 173, 39);
+}
+#features {
+  position: relative;
+  background-image: linear-gradient(rgb(253, 253, 253),rgb(64, 145, 199));
+
+}
+.feature-me{
+  font-size: 3rem;
+  text-decoration: underline;
+  text-decoration-color:rgb(214, 69, 69) ;
+}
+
+.feature-title {   /*from about section*/
+  font-size: 2.0rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #72d2ef;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+i{
+  font-size: 70px;
+  color: #f52828;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  background-image: linear-gradient(rgb(54, 212, 218),#1c103b);
+}
+.projects{
+color: burlywood;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+#footer{
+  background-color: #1c103b;
+}
+#cpage{
+  color: blue;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
