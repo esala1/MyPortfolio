@@ -1,10 +1,10 @@
 
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat";           
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {            /*consider grouping h selectors*/
   font-family: "Montserrat-Bold";
 }
 
@@ -12,9 +12,7 @@ p {
   color: #8f8f8f;
 }
 
-/* Headings */
-
-.big-heading {
+.wassup-heading {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
@@ -26,18 +24,12 @@ p {
   line-height: 1.5;
 }
 
-/* Containers */
+
 
 .container-fluid{
   padding: 7% 15%;
 }
 
-/* Sections */
-
-.colored-section {
-  background-color: #ff4c68;
-  color: rgb(255, 255, 255);
-}
 
 
 /* Navigation Bar */
@@ -52,30 +44,29 @@ p {
   font-weight: bold;
 }
 
-.nav-item {
+.item-li {
   padding: 0 18px;
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   font-family: "Montserrat-Light";
 }
 
-/* Buttons */
 
 .download-button {
-  margin: 5% 3% 5% 0;
+  margin: 5% 4% 5% 0;
 }
 
-/* Title Section */
+/* homepage Section */
 
-#title {
+#home-sec {
   background-color: #1c103b;
   color: #fff;
   text-align: left;
 }
 
-#title .container-fluid {
+#home-sec .container-fluid {
   padding: 3% 15% 7%;
 }
 .myhello{
@@ -84,11 +75,10 @@ p {
   
 }
 
-/* Title Image */
+/* Image */
 
-.title-image {
+.home-sec-image {
   width: 60%;
-  transform: rotate(0deg);
   position: absolute;
   right: 30%;
   border-radius: 50%;
@@ -101,38 +91,30 @@ p {
   font-size: 30px;
   margin-bottom: 0px;
 }
-/* Features Section  */
+/* tools Section  */
 .exp{
-  padding-bottom: px;
+  
   color: rgb(160, 173, 39);
 }
-#features {
+#tools {
   position: relative;
   background-image: linear-gradient(rgb(253, 253, 253),rgb(64, 145, 199));
 
 }
-.feature-me{
+.me{
   font-size: 3rem;
   text-decoration: underline;
   text-decoration-color:rgb(214, 69, 69) ;
 }
-
-.feature-title {   /*from about section*/
+.tool-item {   
   font-size: 2.0rem;
 }
+
 
 .feature-box {
   padding: 4.5%;
 }
 
-.icon {
-  color: #72d2ef;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #ff4c68;
-}
 
 i{
   font-size: 70px;
@@ -140,24 +122,27 @@ i{
 }
 
 
-/* Pricing Section */
+/* projects Section */
 
-#pricing {
+#projects {
   padding: 100px;
-  background-image: linear-gradient(rgb(54, 212, 218),#1c103b);
+  background-image: linear-gradient(rgb(156, 30, 72),#1c103b);
 }
 .projects{
-color: burlywood;
+color: rgb(77, 250, 106);
 }
 
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
 
 .pricing-column {
-  padding: 3% 2%;
+  padding: 4% 4%;   /*top&bottom, right&left*/
 }
+
+.par-projects{
+  color: rgb(34, 213, 236);
+  background-color: rgb(20, 3, 34);
+}
+
+
 
 /* Footer Section */
 #footer{
@@ -167,15 +152,14 @@ color: burlywood;
   color: blue;
 }
 
-
+/*This media query should be at the end here*/
 @media (max-width: 1028px) {
 
-  #title {
+  #home-sec {
     text-align: center;
   }
 
-  .title-image {
+  .home-sec-image {
     position: static;
-    transform: rotate(0);
   }
 }
