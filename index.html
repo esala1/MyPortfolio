@@ -3,16 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  
-  <meta property="og:title" content="Portfolio Website: In-development"/>
-  <meta property="og:description" content="My Portfolio"/>
-  <meta property="og:url" content="https://esala1.github.io/MyPortfolio/" />
-  <meta property="og:image" content="https://github.com/esala1/MyPortfolio/blob/master/images/Webp.net-resizeimage.jpg"/>
-
-  
-  
-  
-  <title>Eliyas Portfolio Website</title>
+  <title>Portfolio Website</title>
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -25,14 +16,15 @@
 <body>
 
   <section id="home-sec">
-
+   
     <div class="container-fluid">
-
+     
       <!-- Nav Bar -->
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
 
-        <a class="navbar-brand" href="">myPortfolio</a>
+        <a class="navbar-brand" href="">> Eliyas_Sala.Portfolio</a>
+      
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"></span>
@@ -51,28 +43,55 @@
               <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
-
+        
         </div>
       </nav>
 
-
-      <!-- main text -->
-
       <div class="row">
-
-        <div class="col-lg-6">
-          <h1 class="wassup-heading"><span class="myhello">Hello</span>! My name is Eliyas Sala.</h1>
-          <a href="#projects"> <button type="button" class="btn btn-outline-info btn-lg download-button"> View Projects</button> </a>
-          <a href="#footer"><button type="button" class="btn btn-outline-warning btn-lg download-button"> Contact</button> </a>
-
+        <div class="col-8">
+          <video muted loop autoplay class="home-sec-image0">
+            <source src="media/New video nice.mp4" type="video/mp4"/>
+            <source src="media/New video nice.webm" type="video/webm">
         </div>
 
-        <div class="col-lg-6">
-          <img class="home-sec-image" src="images/pic2 (2).jpg">
+        <div class="col-4">
+          <div id="glowMe">
+         <img src="media/pic2 (2).jpg" class="home-sec-image2">
+
         </div>
+         <div class="row">
+          
+         <div class="col-sm-6">
+          <a href="#projects"> <button type="button" class="btn btn-outline-danger btn-lg download-button">projects</button> </a>
+         </div>
+         <div class="col-sm-6">
+          <a href="#footer"> <button type="button" class="btn btn-outline-warning btn-lg download-button">contact</button> </a>
+         </div>
+         </div>  
+        </div>          
+        </div>
+      
+      
+        <div class="row">
+          
+          <div class="col-4">
+            <video muted loop autoplay class="home-sec-image">
+              <source src="media/New video output.mp4" type="video/mp4"/>
+              <source src="media/New-video-output.webm" type="video/webm">
+          </div>
 
-      </div>
+          <div class="col-4">
+            <video muted loop autoplay class="home-sec-image">
+              <source src="media/New video output.mp4" type="video/mp4"/>
+              <source src="media/New-video-output.webm" type="video/webm">
+          </div>
 
+          <div class="col-4">
+            <video muted loop autoplay class="home-sec-image">
+              <source src="media/New video output.mp4" type="video/mp4"/>
+              <source src="media/New-video-output.webm" type="video/webm">
+          </div>
+       
     </div>
 
   </section>
@@ -142,28 +161,18 @@
 <h1 class="projects">Projects</h1>
 <!--row 1-->
     <div class="row">
+<div class="card col-4">
+  <img src="media/web2.png" alt="">
+  <div class="card-body">
+    <h4 class="card-title"><a>This Portfolio Website</a></h4>
+    <p  class="par-projects">Optimized for mobile devices, this website (developed with Html, CSS, and Bootstrap) showcases my projects.</p>
+    <a href="media/web.png" target="_blank">
+      <button type="button" class="btn btn-outline-info btn-lg download-button1"> See in Github</button> 
+    </a>
 
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3> This Portfolio Website</h3>
-          </div>
-          <div class="card-body">
-            <div class="embed-responsive embed-responsive-16by9">
-              <video autoplay loop > <!--this video might not work-->
-                  <source src="images/vid.mp4" type="video/mp4">
-              </video>
-          </div>
-          
-            <p class="par-projects">Optimized for mobile devices, this website (developed with Html, CSS, and Bootstrap) showcases my projects.</p>
-            
-            <a href="https://github.com/esala1/MyPortfolio" target="_blank">
-              <button type="button" class="btn btn-outline-info btn-lg download-button"> See in Github</button> 
-            </a>
-      
-          </div>
-        </div>
-      </div>
+  </div>
+
+</div>
 
       <div class="pricing-column col-lg-4 col-md-6">
         <div class="card">
@@ -174,10 +183,10 @@
             <p class="par-projects">In Development</p>
             
             <a href="[edit] connect repo" target="_blank">
-              <button type="button" class="btn btn-outline-info btn-lg download-button"> See in Github</button> 
+              <button type="button" class="btn btn-outline-info btn-lg download-button1"> See in Github</button> 
             </a>
             <a href="[edit]connect page" target="_blank">
-              <button type="button" class="btn btn-outline-dark btn-lg download-button"> See in Site</button> 
+              <button type="button" class="btn btn-outline-dark btn-lg download-button1"> See in Site</button> 
             </a>
           </div>
         </div>
@@ -192,10 +201,10 @@
             <p class="par-projects">In Development</p>
             
             <a href="[edit] connect repo" target="_blank">
-              <button type="button" class="btn btn-outline-info btn-lg download-button"> See in Github</button> 
+              <button type="button" class="btn btn-outline-info btn-lg download-button1"> See in Github</button> 
             </a>
             <a href="[edit]connect page" target="_blank">
-              <button type="button" class="btn btn-outline-dark btn-lg download-button"> See in Site</button> 
+              <button type="button" class="btn btn-outline-dark btn-lg download-button1"> See in Site</button> 
             </a>
           </div>
         </div> 
@@ -214,9 +223,9 @@
     <div class="container-fluid">
 
       <h3 class="wassup-heading">Contact me</h3>
-      <a href="https://www.linkedin.com/in/eliyas-sala-0593a5186/"> <button class="download-button btn btn-lg btn-warning" type="button"> <i id= "cpage" class="fab fa-linkedin-in"></i> Linkedin </button> </a>
-      <a href="https://github.com/esala1"><button class="download-button btn btn-lg btn-warning" type="button"><i id= "cpage" class="fab fa-github"></i> Github</button></a>
-      <a href = "mailto:eliyas54045@gmail.com?subject = Feedback&body = Message"><button class="download-button btn btn-lg btn-warning" type="button"> <i id= "cpage" class="fas fa-envelope"></i> Email me </button></a>
+      <a href="https://www.linkedin.com/in/eliyas-sala-0593a5186/" target="_blank"> <button class="download-button1 btn btn-lg btn-warning" type="button"> <i id= "cpage" class="fab fa-linkedin-in"></i> Linkedin </button> </a>
+      <a href="https://github.com/esala1" target="_blank"><button class="download-button1 btn btn-lg btn-warning" type="button"><i id= "cpage" class="fab fa-github"></i> Github</button></a>
+      <a href = "mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank"><button class="download-button1 btn btn-lg btn-warning" type="button"> <i id= "cpage" class="fas fa-envelope"></i> Email me </button></a>
     </div>
     <div class="container-fluid">
       
