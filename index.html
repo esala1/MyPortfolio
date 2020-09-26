@@ -2,29 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <style>
-    /* width */
-    ::-webkit-scrollbar {
-      width: 20px;
-    }
+  
     
-    /* Track */
-    ::-webkit-scrollbar-track {
-      box-shadow: inset 0 0 5px rgb(33, 170, 250); 
-      border-radius: 10px;
-    }
-     
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-      background: linear-gradient(rgb(130, 20, 204),rgb(248, 230, 71),rgb(71, 27, 153)); 
-      border-radius: 10px;
-    }
-    
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-      background: linear-gradient(rgb(61, 36, 7),rgb(248, 248, 71),purple); 
-    }
-    </style>
   <title>Portfolio Website</title>
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
@@ -73,12 +52,13 @@
           <video muted loop autoplay playsinline class="home-sec-image0">
             <source src="media/New video nice.mp4" type="video/mp4"/>
         </div>
-
-        <div class="col-4">
+       
+        <div class="col-4 ">
           <div id="glowMe">
-         <img src="media/pic2 (2).jpg" class="home-sec-image2">
-
+         <img src="media/pic2 (2).jpg" class="home-sec-image2" id="pro2">
         </div>
+      
+
          <div class="row">
           
          <div class="col-sm-6">
@@ -138,7 +118,7 @@
     </section>
 
   <!-- Tools -->
-
+<!-- icons from Font Awesome -->
   <section id="tools">
 
     <div class="container-fluid">
@@ -147,36 +127,38 @@
         <div class="feature-box col-lg-4">
           <i class="fab fa-java"></i>
           <h3 class="tool-item">Java</h3>
-          
         </div>
 
         <div class="feature-box col-lg-4">
           <i class="fab fa-html5"></i>
           <h3 class="tool-item">Html 5</h3>
-         
         </div>
 
         <div class="feature-box col-lg-4">
           <i class="fab fa-css3-alt"></i>
           <h3 class="tool-item">CSS 3</h3>
-         
         </div>
 
         <div class="feature-box col-lg-4">
           <i class="fab fa-bootstrap"></i>
           <h3 class="tool-item">Bootstrap 4</h3>
-         
         </div>
 
+        <div class="feature-box col-lg-4">
+          <i class="fab fa-js-square"></i>
+          <h3 class="tool-item">JavaScript</h3>
+        </div>
         
         <div class="feature-box col-lg-4">
           <i class="fab fa-github"></i>
           <h3 class="tool-item">Git</h3>
-         
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="fab fa-linux"></i>
+          <h3 class="tool-item">Linux</h3>
         </div>
       </div>
-
-
     </div>
   </section>
 
@@ -185,24 +167,32 @@
 
   <section  id="projects">
 <h1 class="projects">Projects</h1>
-    
-
     <div class="row">
       <div class="pricing-column col-lg-4">
-        <div class="card">
+        <div class="card bg-secondary">
           <div class="card-header">
-            <h3> Banking System Application</h3> 
-            <img src="media/bank.png" alt="" id="pro1"class="img-fluid">
-             
-            
+            <h3 style="color:rgb(255, 255, 255);"> This Portfolio Website</h3> 
+            <img src="media/Capture.PNG" alt="" id="pro1"class="img-fluid">
           </div>
           <div class="card-body" >
-            
+            <p class="par-projects">Optimized for mobile devices, this responsive website (developed with Html, CSS, and Bootstrap) showcases my projects with their links to Github.</p>
+            <a href="https://github.com/esala1/MyPortfolio" target="_blank">
+              <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button> 
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4">
+        <div class="card bg-secondary">
+          <div class="card-header">
+            <h3 style="color:rgb(255, 255, 255);"> Banking System Application</h3> 
+            <img src="media/bank.png" alt="" id="pro1"class="img-fluid">
+          </div>
+          <div class="card-body" >
             <p class="par-projects">Applying my knowledge of Java OOP, I wrote over 500+ lines of codes to program a banking system that performs ATM functions. </p>
             <a href="https://github.com/esala1/Banking-Application" target="_blank">
               <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button> 
             </a>
-           
           </div>
         </div>
       </div>
@@ -210,37 +200,19 @@
 
       
       <div class="pricing-column col-lg-4">
-        <div class="card">
+        <div class="card bg-secondary">
           <div class="card-header">
-            <h3> Large Matrices Generator</h3> 
+            <h3 style="color:rgb(255, 255, 255);"> Large Matrices Generator</h3> 
             <img src="media/matrix.jpg" alt="" id="pro1"class="img-fluid">
-             
-            
           </div>
           <div class="card-body" >
-            
             <p class="par-projects">This program, implementing linear algebra topics, enables users to generate huge random matrices and perform multiplication operations with execution time.  </p>
             <a href="https://github.com/esala1/LargeMatricesGenerator" target="_blank">
               <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button> 
             </a>
-           
           </div>
         </div>
       </div>
-
-
-      <div class="pricing-column col-lg-4">
-        <div class="card">
-          <div class="card-header">
-            <h3> Android App</h3>
-          </div>
-          <div class="card-body">
-            <p class="par-projects">In development: expect soon</p>
-            
-          </div>
-        </div> 
-      </div>
-
     </div>
 
 
@@ -249,19 +221,31 @@
 
     <div class="row">
       <div class="pricing-column col-lg-4">
-        <div class="card">
+        <div class="card bg-secondary">
           <div class="card-header">
-            <h3> Java Sorting Algorithms Visualizer</h3> 
+            <h3 style="color:rgb(255, 255, 255);"> Android App</h3>
           </div>
           <div class="card-body">
             <p class="par-projects">In development: expect soon</p>
             
-          
-            
+          </div>
+        </div> 
+      </div>
+      
+
+      <div class="pricing-column col-lg-4">
+        <div class="card bg-secondary">
+          <div class="card-header">
+            <h3 style="color:rgb(255, 255, 255);"> Java Sorting Algorithms Visualizer</h3> 
+          </div>
+          <div class="card-body">
+            <p class="par-projects">In development: expect soon</p>
           </div>
         </div>
       </div>
-</div>
+        </div>
+      </div>
+    </div>
 
       
   <!-- Footer -->
