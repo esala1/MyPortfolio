@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  
-    
+
+
   <title>Portfolio Website</title>
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
@@ -14,17 +14,17 @@
 </head>
 
 <body>
-  
+
   <section id="home-sec">
-   
+
     <div class="container-fluid" >
-     
+
       <!-- Nav Bar -->
 
       <nav class="navbar navbar-expand-lg sticky-top navbar-dark" >
 
-        <a class="navbar-brand" href="">--> EliyasSala.Portfolio</a>
-      
+        <a class="navbar-brand" href=""> Portfolio: Eliyas Sala</a>
+
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"></span>
@@ -43,74 +43,80 @@
               <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
-        
+
         </div>
       </nav>
 
       <div class="row">
-        <div class="col-8">
+
+        <div class="col-4">
           <video muted loop autoplay playsinline class="home-sec-image0">
             <source src="media/New video nice.mp4" type="video/mp4"/>
         </div>
-       
-        <div class="col-4 ">
+
+        <div class="col-4 " id="container">
           <div id="glowMe">
-         <img src="media/pic2 (2).jpg" class="home-sec-image2" id="pro2">
+         <img src="media/0.jpg" class="home-sec-image2" id="pro2">
+         </div>
+         <div class="middle">
+          <div class="text">Hey there!</div>
         </div>
-      
+        </div>
+        <div class="col-4">
+          <video muted loop autoplay playsinline class="home-sec-image0">
+            <source src="media/New video nice.mp4" type="video/mp4"/>
+        </div>
+      </div>
 
-         <div class="row">
-          
-         <div class="col-sm-6">
-          <a href="#aboutme"> <button type="button" class="btn btn-outline-danger btn-lg download-button">about</button> </a>
-         </div>
-         <div class="col-sm-6">
-          <a href="#projects"> <button type="button" class="btn btn-outline-warning btn-lg download-button">projects</button> </a>
-         </div>
-         </div>  
-        </div>          
-        </div>
-      
-      
+
         <div class="row">
-          
-          <div class="col-4">
-            <video muted loop autoplay playsinline class="home-sec-image">
-              <source src="media/New video output.mp4" type="video/mp4"/>            
-          </div>
 
           <div class="col-4">
-            <video muted loop autoplay playsinline class="home-sec-image">
-              <source src="media/New video output.mp4" type="video/mp4"/>             
+            <img src="media/7.png" class="home-sec-image2" id="pro2">
           </div>
 
           <div class="col-4">
             <video muted loop autoplay playsinline class="home-sec-image">
               <source src="media/New video output.mp4" type="video/mp4"/>
           </div>
-       
+
+          <div class="col-4">
+            <img src="media/6.png" class="home-sec-image2" id="pro2">
+          </div>
+
     </div>
 
   </section>
 
   <!--About me-->
-  
+
     <section id="aboutme">
       <div class="container-fluid">
         <hr style="height:9px;border-width:0;color:rgb(131, 81, 100);background-color:hsl(187, 100%, 70%)">
           <h1 class="me">About me</h1>
           <div class="row">
-          <div class="col-lg-6">
-            <img src="media/coolpic.png" class="img-fluid" id="second-pic">
-        </div>
-          <div class="col-lg-6 ">
-          <p class=" text-left" >
-            Initially a mathematics major, I discovered my keen interest in computer science later on. 
-            However, I did not let time constrain me from acquiring skills in programming languages, 
-            frameworks, and other developmental tools. In this broad field of advancing technology, 
-            object-oriented programming has especially captured my focus of study. Commitment-driven and highly analytical, 
-            I am seeking software engineering positions where I can work with other spirited programmers. 
+            <div class="col-lg-4 ">
+              <h2 id="ed">Education</h2>
+              <p2 class=" text-left" id="major" >
+               Major: Computer Science <br>
+               Minor: Mathematics/Statistics
+              </p>
+              <br>
+              <img src="media/gsulogo.jpg" id="gsul" class="img-fluid">
+
+              </div>
+
+          <div class="col-lg-8 ">
+          <p class="text-left" >
+            <br>
+            Initially a mathematics major, I discovered my keen interest in computer science later on.
+            However, I did not let time constrain me from acquiring skills in programming languages,
+            frameworks, and other developmental tools. In this broad field of advancing technology,
+            object-oriented programming has especially captured my focus of study. Commitment-driven and highly analytical,
+            I am seeking software engineering positions where I can work with other spirited programmers.
           </p>
+          <br>
+          <a href = "mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank"> <button id="request">Request my resume</button></a>
           </div>
 
           </div>
@@ -123,7 +129,7 @@
 
     <div class="container-fluid">
     <h1 class="exp">Experience With</h1>
-      <div class="row">
+      <div class="row" id="animate">
         <div class="feature-box col-lg-4">
           <i class="fab fa-java"></i>
           <h3 class="tool-item">Java</h3>
@@ -148,7 +154,7 @@
           <i class="fab fa-js-square"></i>
           <h3 class="tool-item">JavaScript</h3>
         </div>
-        
+
         <div class="feature-box col-lg-4">
           <i class="fab fa-github"></i>
           <h3 class="tool-item">Git</h3>
@@ -171,13 +177,13 @@
       <div class="pricing-column col-lg-4">
         <div class="card bg-secondary">
           <div class="card-header">
-            <h3 style="color:rgb(255, 255, 255);"> This Portfolio Website</h3> 
+            <h3 style="color:rgb(255, 255, 255);"> This Portfolio Website</h3>
             <img src="media/Capture.PNG" alt="" id="pro1"class="img-fluid">
           </div>
           <div class="card-body" >
             <p class="par-projects">Optimized for mobile devices, this responsive website (developed with Html, CSS, and Bootstrap) showcases my projects with their links to Github.</p>
             <a href="https://github.com/esala1/MyPortfolio" target="_blank">
-              <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button> 
+              <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button>
             </a>
           </div>
         </div>
@@ -185,30 +191,30 @@
       <div class="pricing-column col-lg-4">
         <div class="card bg-secondary">
           <div class="card-header">
-            <h3 style="color:rgb(255, 255, 255);"> Banking System Application</h3> 
+            <h3 style="color:rgb(255, 255, 255);"> Banking System Application</h3>
             <img src="media/bank.png" alt="" id="pro1"class="img-fluid">
           </div>
           <div class="card-body" >
             <p class="par-projects">Applying my knowledge of Java OOP, I wrote over 500+ lines of codes to program a banking system that performs ATM functions. </p>
             <a href="https://github.com/esala1/Banking-Application" target="_blank">
-              <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button> 
+              <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button>
             </a>
           </div>
         </div>
       </div>
 
 
-      
+
       <div class="pricing-column col-lg-4">
         <div class="card bg-secondary">
           <div class="card-header">
-            <h3 style="color:rgb(255, 255, 255);"> Large Matrices Generator</h3> 
+            <h3 style="color:rgb(255, 255, 255);"> Large Matrices Generator</h3>
             <img src="media/matrix2.png" alt="" id="pro1"class="img-fluid">
           </div>
           <div class="card-body" >
             <p class="par-projects">This program, implementing linear algebra topics, enables users to generate huge random matrices and perform multiplication operations with execution time.  </p>
             <a href="https://github.com/esala1/LargeMatricesGenerator" target="_blank">
-              <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button> 
+              <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button>
             </a>
           </div>
         </div>
@@ -227,16 +233,16 @@
           </div>
           <div class="card-body">
             <p class="par-projects">In development: expect soon</p>
-            
+
           </div>
-        </div> 
+        </div>
       </div>
-      
+
 
       <div class="pricing-column col-lg-4">
         <div class="card bg-secondary">
           <div class="card-header">
-            <h3 style="color:rgb(255, 255, 255);"> Java Sorting Algorithms Visualizer</h3> 
+            <h3 style="color:rgb(255, 255, 255);"> Java Sorting Algorithms Visualizer</h3>
           </div>
           <div class="card-body">
             <p class="par-projects">In development: expect soon</p>
@@ -247,7 +253,7 @@
       </div>
     </div>
 
-      
+
   <!-- Footer -->
 
   <footer  id="footer">
@@ -259,10 +265,16 @@
       <a href = "mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank"><button class="download-button1 btn btn-lg btn-warning" type="button"> <i id= "cpage" class="fas fa-envelope"></i> Email me </button></a>
     </div>
     <div class="container-fluid">
-      
+
       <p>© Copyright 2020 Eliyas Portfolio</p>
     </div>
   </footer>
+
+<!--===== scroll reveal =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--===== MAIN JS =====-->
+<script src="js/main.js"></script>
 
 <!-- Bootstrap -->
 

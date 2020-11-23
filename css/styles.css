@@ -1,4 +1,3 @@
-
 #pro1:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -17,72 +16,38 @@
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-@keyframes function1 {
-  from {background-color: rgb(18, 64, 94);}
-  to {background-color: #1c4558;}   
-}
-#glowMe:hover{
- 
-  animation-name: function1;
-  animation-duration: 2s;
-  border-left-color: #fe0808;
-  border-left-style: solid;
-  border-left-width: 6px;
-  
-  
-  border-right-color: #08d9fe;
-  border-right-style: solid;
-  border-right-width: 6px;
-  
-  border-top-color: #4bd1fa;
-  border-top-style: solid;
-  border-top-width: 6px;
 
-  border-bottom-color: #fe1008;
-  border-bottom-style: solid;
-  border-bottom-width: 6px;
-}
-#pro2:hover{
-  border-radius: 50%;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
-         
-}
-#pro2:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-         
-}
+
  /* styling scrollbar */
     /* width */
     ::-webkit-scrollbar {
       width: 20px;
     }
-    
+
     /* Track */
     ::-webkit-scrollbar-track {
-      box-shadow: inset 0 0 5px rgb(33, 170, 250); 
+      box-shadow: inset 0 0 5px rgb(33, 170, 250);
       border-radius: 10px;
     }
-     
+
     /* Handle */
     ::-webkit-scrollbar-thumb {
-      background-color: #1a036b; 
+      background-color: #1a036b;
       border-radius: 10px;
     }
-    
+
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-      background-color: #ff9933; 
+      background-color: #e90000;
     }
-   
+
 
 
 html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Montserrat";           
+  font-family: "Montserrat";
   text-align: center;
 }
 
@@ -138,17 +103,22 @@ p {
 
 .download-button {
   margin: 7% 7% 7% 25%;
-  
+
 }
 .download-button1 {
   margin: 5% 4% 5% 0;
-  
+
 }
 
 
 
 
 /* homepage Section */
+#background-home {
+
+background-image: url("/media.png");
+
+}
 
 #home-sec {
   background-color:#131b47;
@@ -173,38 +143,72 @@ p {
   position: relative;
 
 }
+
+
+
+#container:hover .home-sec-image2 {
+  opacity: 0.3;
+}
+
+#container:hover .middle {
+  opacity: 1;
+}
 #glowMe{
- /* background-image: linear-gradient(#08F7FE,rgb(18, 196, 12));       */
-  border-radius: 60px;
-  padding-left: 20%; 
-  border-left-color: #08F7FE;
-  border-left-style: solid;
-  border-left-width: 6px;
-  
-  
-  border-right-color: #08F7FE;
-  border-right-style: solid;
-  border-right-width: 6px;
-  
-  border-top-color: #08F7FE;
+
+  border-radius: 50px;
+
+  border-bottom-color: #f54223;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+
+
+
+  border-top-color: #f54223;
   border-top-style: solid;
   border-top-width: 6px;
 
-  border-bottom-color: #08F7FE;
-  border-bottom-style: solid;
-  border-bottom-width: 6px;
-  
+  border-left-color: #f54223;
+  border-left-style: solid;
+  border-left-width: 6px;
+
+  border-right-color: #f54223;
+  border-right-style: solid;
+  border-right-width: 6px;
+
+  background-color: #50f58f;
 }
+.text {
+  background-color: #37505f;
+  color: red;
+  font-size: 30px;
+  padding: 16px 32px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 #second-pic{
   border-radius: 60px;
 }
 
 
 .home-sec-image2{
-  width: 70%;
+  width: 100%;
+  height: 70%;
   position: relative;
-  border-radius: 50%;
-
+  border-radius: 70%;
+}
+#background-home{
+  background-color: #e90000;
+  background-image: url("/media/3\(2).png");
 }
 
 #hr{
@@ -217,12 +221,57 @@ p {
 #aboutme p{
   font-size: 25px;
   margin-bottom: 0px;
-  color: #fff9f9;
-  
+  color: #b9b9b9;
 }
+#major{
+  color: #6dff48;
+  font-size: 25px;
+  background-color: rgb(138, 43, 43);
+}
+#ed{
+  color: #fdfdfd;
+  font-size: 35px;
+  text-decoration: underline;
+
+}
+#gsul{
+  border-radius: 40%;
+}
+#request {
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: none;
+  color: #080808;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+@keyframes glowing {
+  0% {
+    background-color: #2ba805;
+    box-shadow: 0 0 5px #2ba805;
+  }
+  50% {
+    background-color: #49e819;
+    box-shadow: 0 0 20px #49e819;
+  }
+  100% {
+    background-color: #2ba805;
+    box-shadow: 0 0 5px #2ba805;
+  }
+}
+#request {
+  animation: glowing 1300ms infinite;
+}
+
 /* tools Section  */
 .exp{
-  
+
   color:  rgb(3, 55, 151);
 }
 #tools {
@@ -236,7 +285,7 @@ p {
   color: rgb(77, 250, 106);
   text-decoration-color:rgb(214, 69, 69) ;
 }
-.tool-item {   
+.tool-item {
   font-size: 2.0rem;
 }
 
@@ -271,7 +320,7 @@ color: rgb(24, 224, 51);
 .par-projects{
   color: rgb(36, 255, 7);
   background-color: rgb(24, 1, 1);
-  
+
 }
 
 /* Footer Section */
