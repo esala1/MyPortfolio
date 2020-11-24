@@ -224,14 +224,15 @@ background-image: url("/media.png");
   color: #b9b9b9;
 }
 #major{
-  color: #6dff48;
+  color: #48ff76;
   font-size: 25px;
-  background-color: rgb(138, 43, 43);
+  background-color: rgb(43, 138, 83);
 }
 #ed{
   color: #fdfdfd;
   font-size: 35px;
-  text-decoration: underline;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 #gsul{
@@ -272,7 +273,7 @@ background-image: url("/media.png");
 /* tools Section  */
 .exp{
 
-  color:  rgb(3, 55, 151);
+  color:  rgb(21, 77, 4);
 }
 #tools {
   position: relative;
@@ -282,7 +283,7 @@ background-image: url("/media.png");
 .me{
   font-size: 3rem;
   text-decoration: none;
-  color: rgb(77, 250, 106);
+  color: rgb(22, 253, 1);
   text-decoration-color:rgb(214, 69, 69) ;
 }
 .tool-item {
@@ -297,7 +298,7 @@ background-image: url("/media.png");
 
 i{
   font-size: 70px;
-  color: #f52828;
+  color: #86dd13;
 }
 
 
@@ -328,7 +329,7 @@ color: rgb(24, 224, 51);
   background-color: #06022bd2;
 }
 #cpage{
-  color: rgb(9, 73, 248);
+  color: rgb(248, 37, 9);
 }
 
 /*This media query should be at the end here*/
