@@ -226,7 +226,7 @@ background-image: url("/media.png");
 #major{
   color: #48ff76;
   font-size: 25px;
-  background-color: rgb(43, 138, 83);
+  background-color: none;
 }
 #ed{
   color: #fdfdfd;
