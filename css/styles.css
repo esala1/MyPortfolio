@@ -252,6 +252,20 @@ background-image: url("/media.png");
   text-align: center;
   text-decoration: none;
 }
+#play{
+    background-color: #0a8bf5;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #080808;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+}
 @keyframes glowing {
   0% {
     background-color: #2ba805;
@@ -269,6 +283,15 @@ background-image: url("/media.png");
 #request {
   animation: glowing 1300ms infinite;
 }
+.hob{
+  color: #08F7FE;
+}
+#hob1{
+  border-radius: 50px 20px;
+}
+#hob2{
+  border-radius: 30px 70px;
+}
 
 /* tools Section  */
 .exp{
@@ -281,7 +304,7 @@ background-image: url("/media.png");
 
 }
 .me{
-  font-size: 3rem;
+  font-size: 4rem;
   text-decoration: none;
   color: rgb(22, 253, 1);
   text-decoration-color:rgb(214, 69, 69) ;
@@ -321,7 +344,8 @@ color: rgb(24, 224, 51);
 .par-projects{
   color: rgb(36, 255, 7);
   background-color: rgb(24, 1, 1);
-
+  margin: 25px 10px 15px 20px;
+  text-align: center;
 }
 
 /* Footer Section */
