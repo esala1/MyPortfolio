@@ -12,7 +12,7 @@ const sr = ScrollReveal({
 
 sr.reveal('.text-left',{delay: 200});
 sr.reveal('.exp',{delay: 200}); 
-sr.reveal('h3',{delay: 200}); 
+
 sr.reveal('#animate',{delay: 200}); 
 
 sr.reveal('#projects',{delay: 200});

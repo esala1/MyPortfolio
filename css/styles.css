@@ -118,12 +118,12 @@ p {
 /* homepage Section */
 #background-home {
 
-background-image: url("/media.png");
+background: white;
 
 }
 
 #home-sec {
-  background-color:#131b47;
+  background: url();
   color: #fff;
   text-align: left;
 
