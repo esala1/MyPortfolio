@@ -22,24 +22,24 @@
  /* styling scrollbar */
     /* width */
     ::-webkit-scrollbar {
-      width: 20px;
+      width: 17px;
     }
 
     /* Track */
     ::-webkit-scrollbar-track {
-      box-shadow: inset 0 0 5px rgb(33, 170, 250);
-      border-radius: 10px;
+      box-shadow: inset 0 0 5px rgb(33, 250, 44);
+      border-radius: 60px;
     }
 
     /* Handle */
     ::-webkit-scrollbar-thumb {
-      background-color: #1a036b;
+      background-color: #15bb4c;
       border-radius: 10px;
     }
 
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-      background-color: #e90000;
+      background-color: #16743a;
     }
 
 
@@ -177,11 +177,11 @@ background: white;
   border-right-style: solid;
   border-right-width: 6px;
 
-  background-color: #50f58f;
+  background-color: #f55757;
 }
 .text {
-  background-color: #37505f;
-  color: red;
+  background-color: #036d03;
+  color: rgb(34, 255, 144);
   font-size: 30px;
   padding: 16px 32px;
 }
@@ -206,7 +206,7 @@ background: white;
   width: 100%;
   height: 70%;
   position: relative;
-  border-radius: 70%;
+  border-radius: 14%;
 }
 #background-home{
   background-color: #e90000;
@@ -217,7 +217,7 @@ background: white;
   color: #08F7FE;
 }
 #aboutme{
-  background-color: #03040b;
+  background-color: #5C755E;
   margin-bottom: 0px;
 }
 #aboutme p{
@@ -255,7 +255,7 @@ background: white;
   text-decoration: none;
 }
 #play{
-    background-color: #0a8bf5;
+    background-color: #0af574;
     -webkit-border-radius: 60px;
     border-radius: 60px;
     border: none;
@@ -286,7 +286,7 @@ background: white;
   animation: glowing 1300ms infinite;
 }
 .hob{
-  color: #08F7FE;
+  color: #ffffff;
 }
 #hob1{
   border-radius: 50px 20px;
@@ -298,11 +298,11 @@ background: white;
 /* tools Section  */
 .exp{
 
-  color:  rgb(21, 77, 4);
+  color:  rgb(66, 233, 121);
 }
 #tools {
   position: relative;
-  background-color: #dae7f7;
+  background-color: #3A5F0B;
 
 }
 .me{
@@ -313,6 +313,7 @@ background: white;
 }
 .tool-item {
   font-size: 2.0rem;
+  color: #ffffff;
 }
 
 
@@ -331,11 +332,11 @@ i{
 
 #projects {
   padding: 100px;
-  background-color: #150b49;
+  background-color: #CCFFBB;
 
 }
 .projects{
-color: rgb(24, 224, 51);
+color: rgb(21, 143, 37);
 }
 
 
@@ -352,7 +353,7 @@ color: rgb(24, 224, 51);
 
 /* Footer Section */
 #footer{
-  background-color: #06022bd2;
+  background-color: #0b2702;
 }
 #cpage{
   color: rgb(248, 37, 9);
