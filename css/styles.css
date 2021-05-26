@@ -381,17 +381,17 @@ color: rgb(21, 143, 37);
 
 .glow {
   font-size: 4vw;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px rgb(82, 16, 0), 0 0 20px #fff, 0 0 30px #49e600, 0 0 40px #49e600, 0 0 50px #49e600, 0 0 60px #49e600, 0 0 70px #49e600;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px #fff, 0 0 30px #49e600, 0 0 40px #49e600, 0 0 50px #49e600, 0 0 60px #49e600, 0 0 70px #49e600;
   }
   
   to {
-    text-shadow: 0 0 20px rgb(22, 255, 53), 0 0 30px #49e600, 0 0 40px #49e600, 0 0 50px #f50909, 0 0 60px #f50909, 0 0 70px #f50909, 0 0 80px #f50909;
+    text-shadow: 0 0 20px rgb(251, 255, 22), 0 0 30px #49e600, 0 0 40px #49e600, 0 0 50px #c7e67e, 0 0 60px #c7e67e, 0 0 70px #c7e67e, 0 0 80px #c7e67e;
   }
 }
