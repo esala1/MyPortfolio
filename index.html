@@ -69,7 +69,7 @@
    <p class="glow">Programmer | Musician</p>
        
       <div class="text-center">
-      <img src="media/maypic8.png" class="rounded img-fluid" id="img" >  
+      <img src="media/maypic8.png" class="rounded img-fluid" id="img" style="width: 60%; height: 100%;">  
     </div>
   </section>
 
@@ -89,13 +89,28 @@
 
               </div>
 
-          <div class="col-6 ">
+          <div class="col-6">
           <p class="text-left" >
             <h2 id="ed">Education</h2>
+            <div class="col-sm" style="background-color: #97f856; box-shadow: #f1f07c;border: 15px solid red;
+            padding: 10px; margin: 20px; ">
+              <p style="font-size: 160%; color: black; align-items: left;">
+                Initially a mathematics major, I discovered my keen interest in programming later on. However,
+                I did not let time constrain me from acquiring skills in programming languages, frameworks, and other
+                development tools. 
+                <br>
+                
+                <span style="color: black; text-decoration: underline;font-weight: 600;">Related Coursework</span> 
+                <br>
+                <br>
+                <span style="color: rgb(0, 0, 0); background-color: rgb(202, 211, 79);">Data structures, Algorithms: Design&Analysis, Data Science</span>
+              </p>
+              
+              
+            </div>
+           
+           
          
-            <img src="media/maypic11.png" alt="" class="img-fluid">
-            <br>
-            <br>
             <a href = "mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank"> <button id="request">Request My Resume</button></a>
           </p>
           <br>
@@ -154,13 +169,17 @@
           <iframe width="320" height="300"
           src="https://www.youtube.com/embed/7QG-2wCPNBg">
           </iframe>
+          
         </div>
 
+        <div>
+
+        </div>
         <div  class="col-lg-3">
           <br>
           <br>
           <h4 style="color:#ebe9a8; font-family: Arial, Helvetica, sans-serif ; font-weight: 100; font-size: 20px;" > Rapping</h4>
-          <iframe width="320" height="300"
+          <iframe width="300" height="300"
           src="https://www.youtube.com/embed/TccoqVCSH9I">
           </iframe>
         </div>
@@ -173,9 +192,10 @@
       
 
           <img class="card-img-top" src="media/jun17 2 (2).png" alt="Card image cap" style="width: 45vw;">
-          <img class="card-img-top" src="media/eRV.png" alt="Card image cap" style="width: 15vw;">
-          <h2 class="card-title" style="color: rgba(77, 255, 225, 0.986); "> eRoboVocale</h2>
-          <p class="card-text" align="left" style="color: azure; background-color: black;">I am planning on launching my first tech startup, eRoboVocale.
+          
+          <h1 class="card-title" style="color: rgba(144, 218, 27, 0.986); text-decoration: underline; "> eRoboVocale</h2>
+          <p class="card-text" align="left" style="color: rgb(19, 94, 48); background-color: rgb(187, 240, 137); box-shadow: #f1f07c;border: 7px solid red;
+          padding: 10px; margin: 20px; font-size: 140%;">I am planning on launching my first tech startup, eRoboVocale.
             My business model is based on a social media app that can make users’ voices sound amazing. 
             It is similar to TikTok in that you can share your music with others. 
             This app comes with built-in powerful vocal processing tools (like Autotune) that automatically detect music keys and adjust everything (EQ, reverb, etc.) based on your needs.
@@ -238,7 +258,32 @@
   <!-- Projects -->
 
   <section  id="projects">
+
+    <!--This is Research section-->
+    <h1 style="text-align: center; color: rgb(230, 98, 10);">Research-based Project</h1>
+    <div class="row">
+      <!--Ignore below h1: I set it to disappear by match font color with background since it wasn't formatting-->
+      <h1 style="text-align: center; color: #CCFFBB;">Research-based Project</h1>
+      <div class="pricing-column col-lg-8">
+        <div class="card bg-secondary">
+          <div class="card-img-top">
+            <h3 style="color:rgb(255, 255, 255);"> Automated Signature-based Virus Detection System on Windows Operating Systems using Batch Scripts</h3>
+            <img src="media/research.png" alt="" id="myResearch"class="img-fluid">
+          </div>
+          <div class="card-body " >
+            <p class="par-projects">Under the guidance of my professor who teaches Operating Systems, I am in the developmental stages of my research project. 
+              I am programming a desktop Antivirus application and detection mechanism to scan for viruses for Windows operating system. </p>
+            <a href="Research/EliyasSala_proposal.pdf" target="_blank">
+              <button type="button" style="background-color: rgb(245, 227, 67); padding: 1% 1%; cursor: pointer;"> Read my project proposal</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 <h1 class="projects">Projects</h1>
+
     <div class="row" id="projects-row1">
       <div class="pricing-column col-lg-4">
         <div class="card bg-secondary">
@@ -258,14 +303,14 @@
       <div class="pricing-column col-lg-4">
         <div class="card bg-secondary">
           <div class="card-header">
-            <h3 style="color:rgb(255, 255, 255);"> Covid-19 Simulation</h3>
-            <video muted loop autoplay playsinline class="home-sec-image">
-              <source src="media/simulation.mp4" type="video/mp4"/>
+            <h3 style="color:rgb(255, 255, 255);"> Cats Generator API</h3>
+            <img src="media/catGenerator.png" alt="" id="pro1"class="img-fluid">
           </div>
           <div class="card-body" >
-            <p class="par-projects">Utilizing Java Swing, I created this application to display a generic simulation model of the effects of social distancing on the spread of the virus. The model shows how infected individuals (represented by red dots) transmit the virus to susceptible people (represented by blue dots) depending on their proximity. Overtime, the infected population will enter the recovery period (represented by green dots).
-                 </p>
-            <a href="https://github.com/esala1/Covid-19-Simulation" target="_blank">
+            <p class="par-projects">
+              Using a free public API resource, I fetched random images of cats using JavaScript.  
+                </p>
+            <a href="https://github.com/esala1/LovelyCatsGenerator" target="_blank">
               <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button>
             </a>
           </div>
@@ -309,13 +354,12 @@
       <div class="pricing-column col-lg-4">
         <div class="card bg-secondary">
           <div class="card-header">
-            <h3 style="color:rgb(255, 255, 255);"> Assessment software</h3>
-            <video muted loop autoplay playsinline class="home-sec-image">
-              <source src="media/Demo.mp4" type="video/mp4"/>
+            <h3 style="color:rgb(255, 255, 255);"> Calculator GUI</h3>
+            <img src="media/Calculator.png" alt="" id="pro1"class="img-fluid">
           </div>
           <div class="card-body" >
-            <p class="par-projects">This project is a test-taking java application that uses Swing GUI. The demo program, timed for 1 minute, has 4 multiple choice questions with tools such as hints and 50:50 options.   </p>
-            <a href="https://github.com/esala1/Assessment-software" target="_blank">
+            <p class="par-projects">This project is a simple calculator desktop application created using Java. I used WindowBuilder GUI designer.</p>
+            <a href="https://github.com/esala1/Calculator" target="_blank">
               <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button>
             </a>
           </div>
@@ -324,38 +368,11 @@
 
 
 
-      <div class="pricing-column col-lg-4">
-        <div class="card bg-secondary">
-          <div class="card-header">
-            <h3 style="color:rgb(255, 255, 255);"> Large Matrices Generator</h3>
-            <img src="media/matrix2.png" alt="" id="pro1"class="img-fluid">
-          </div>
-          <div class="card-body" >
-            <p class="par-projects">This program, implementing linear algebra topics, enables users to generate huge random matrices and perform multiplication operations with execution time.  </p>
-            <a href="https://github.com/esala1/LargeMatricesGenerator" target="_blank">
-              <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button>
-            </a>
-          </div>
-        </div>
-      </div>
+     
 
-      <div class="pricing-column col-lg-4">
-        <div class="card bg-secondary">
-          <div class="card-header">
-            <h3 style="color:rgb(255, 255, 255);"> Banking System Application</h3>
-            <img src="media/bank.png" alt="" id="pro1"class="img-fluid">
-          </div>
-          <div class="card-body" >
-            <p class="par-projects">Applying my knowledge of Java OOP, I wrote over 500+ lines of codes to program a banking system that performs ATM functions. </p>
-            <a href="https://github.com/esala1/Banking-Application" target="_blank">
-              <button type="button" class="btn btn-outline-info btn-lg download-button1"> view in Github</button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+     
 
-
+</div>
   <!-- Footer -->
 
   <footer  id="footer">
