@@ -6,13 +6,10 @@ const sr = ScrollReveal({
     reset: true
 });
 
-/*SCROLL HOME*/
-
-
-
-
 sr.reveal('#animate',{delay: 200}); 
 sr.reveal('#projects',{delay: 200});
-sr.reveal('#projects-row1',{delay: 10});
-sr.reveal('#projects-row2',{delay: 10});
-
+sr.reveal('#projects-row1',{delay: 100});
+sr.reveal('#projects-row2',{delay: 100});
+sr.reveal('#aboutme',{delay: 800}); 
+sr.reveal('#gettoknowme',{delay: 450})
+sr.reveal('#music',{delay: 450})
