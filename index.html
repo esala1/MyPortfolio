@@ -55,24 +55,13 @@
     
     <div class="row">
       <div class="col-3" style="color: #ec0909; font-family: 'Courier New', Courier, monospace;" >
-        <div class="heading" style="border: solid rgb(252, 18, 18); background-color: rgb(102, 255, 0); "> 
-          <h3>
-              <span class="text-slider-items">
-                  Searching the specified person ...
-              </span>
-              <p class="text-slider" style="color: rgb(0, 0, 0);"></p>             
-          </h3>
-        </div>
-          <h3>
-            <br>
-            <br>
-              <span class="text-slider-items2">
-                 Process finished with exit code 0
-              </span>
-              <span style='font-size:50px;'>&#128526;</span>
-              <strong class="text-slider2"></strong>             
-          </h3>
-        </div>
+        <div class="heading" style="border: solid rgb(252, 18, 18); background-color: rgb(84, 236, 24); "> 
+          <div class='intro'>
+            <h1><span style='font-size:50px;'>&#128526;</span></h1>
+            <span class='typing' style="color: rgb(175, 10, 10); font-size: 1.7rem; font-weight: 600;"></span>
+          </div>
+        </div>     
+      </div>
       <div class="col-5" id="HomepageImage" >
         <img src="media/HomepageGreen.png" class="rounded img-fluid" style="margin-left: 0%; ">
       </div>
@@ -238,7 +227,7 @@
     </iframe>      
   </div>
   <div class="d-flex justify-content-center">
-    <div class="pricing-column col-lg-9">
+    <div class="pricing-column col-lg-9" id="researchproject">
       <div class="card bg-dark">
         <div class="card-header">
           <h3 style="color:rgb(255, 255, 255);"> Virus Detector</h3>
@@ -330,37 +319,5 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!--TypedJS library-->
- <!-- Import typed.min.js file from node modules folder -->
- <script src="node_modules/typed.js/lib/typed.min.js"></script>  
- <!-- Add jquery cdn -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- <!-- Note: The scripts are redundant but  there's no other way to make them work since I don't want onclick buttons and the limitations of the library itself. Add the following scripts after importing the above scripts for working code. -->
- <script>
-    if ($(".text-slider").length == 1) {  
-        var typed_strings = 
-            $(".text-slider-items").text();
-        var typed = new Typed(".text-slider", {
-            strings: typed_strings.split(", "),
-            typeSpeed: 50,
-            loop: true,
-            backDelay: 900,
-            backSpeed: 30,
-        });
-    }
-  </script>
-  <script>
-   if ($(".text-slider2").length == 1) {  
-       var typed_strings = 
-           $(".text-slider-items2").text();
-       var typed = new Typed(".text-slider2", {
-           strings: typed_strings.split(", "),
-           typeSpeed: 50,
-           loop: true,
-           backDelay: 900,
-           backSpeed: 30,
-       });
-   }
- </script>
 </body>
 </html>
