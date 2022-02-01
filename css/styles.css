@@ -96,8 +96,8 @@ p {
   background: linear-gradient(rgb(105, 224, 50),rgb(0, 7, 0))
 }
 .nav-link:hover{
-  background: linear-gradient(green,rgb(226, 17, 17));
-  border: 2px solid rgb(74, 241, 23);
+  background: linear-gradient(rgb(25, 94, 25),rgb(128, 226, 17));
+  border: 3.5px solid rgb(70, 100, 58);
 
 }
 
