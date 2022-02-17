@@ -86,26 +86,25 @@ p {
 }
 
 .item-li {
-  padding: 0 18px;  
+  padding: 0 10px;  
 }
 
 .nav-link {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-family: "Montserrat-Light";
-  border: 3px solid rgb(70, 100, 58);
-  background: linear-gradient(rgb(105, 224, 50),rgb(0, 7, 0))
+  cursor: pointer;
+  border-radius: 5px 20px 5px;
+  background: linear-gradient(rgb(3, 5, 0),rgb(0, 0, 0)); 
 }
 .nav-link:hover{
-  background: linear-gradient(rgb(25, 94, 25),rgb(128, 226, 17));
-  border: 3.5px solid rgb(70, 100, 58);
-
+  background: linear-gradient(rgb(39, 99, 11),rgb(27, 151, 48));
 }
 
 .download-button {
   margin: 7% 7% 7% 25%;
 
 }
-.download-button1 {
+.download-button {
   margin: 5% 4% 5% 0;
 
 }
@@ -116,7 +115,7 @@ p {
 /* homepage Section */
 
 #home-sec {
-  background: #000000;
+  background: linear-gradient(rgb(0, 255, 34),black,black,black,black,black,black,black,rgb(0, 7, 0),black);
   height: 100%;
   width: 100%;
 }
@@ -349,7 +348,7 @@ color: rgb(21, 143, 37);
   background-color: #0b2702;
 }
 #cpage{
-  color: rgb(248, 37, 9);
+  color: rgb(208, 255, 0);
 }
 
 /*media query */
@@ -369,7 +368,7 @@ color: rgb(21, 143, 37);
 
 .glow {
   font-size: 4vw;
-  color: rgb(65, 255, 47);
+  color: rgb(13, 78, 22);
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
 }
@@ -395,7 +394,7 @@ color: rgb(21, 143, 37);
 
 #HomepageImage:hover{
 opacity: 0.7;
-border:4px solid rgb(255, 0, 0);
+
 
 }
 
@@ -412,3 +411,5 @@ border:4px solid rgb(255, 0, 0);
 .text-slider-items2 {
   display: none;
 }
+
+

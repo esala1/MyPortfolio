@@ -23,50 +23,50 @@
 </head>
 
 <body>
-   <!-- Nav Bar -->
-   <nav class="navbar navbar-expand-xl navbar-dark py-0" >
-       <span style="color: #36ec09; font-family: 'Courier New', Courier, monospace;font-size: 1.6rem;"> >>Portfolio.find(</span>
-       <span style="color:rgb(253, 10, 10);font-weight:bold; font-family: 'Courier New', Courier, monospace;font-size: 2.0rem;">Eliyas Sala</span> 
-       <span style="color: #36ec09;font-size: 1.2rem">, <img src="media/homepageIcon.png" class="rounded img-fluid">);</span>
-     <!--mobile view menu-->  
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-        <span class="navbar-toggler-icon">
-          <i class="fas fa-bars" style="color:rgb(38, 248, 19); font-size:28px;"></i>
-        </span>
-    </button>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-xl navbar-dark py-0 sticky-top" style="background-color: black;" >
+    <span style="color:rgb(99, 253, 10);font-weight:bold; font-size: 3.0rem; font-family: sans-serif; margin-left: 2%;"> 
+      <img src="media/logo.png" alt="">
+      Eliyas Sala
+    </span> 
+  <!--mobile view menu-->  
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+     <span class="navbar-toggler-icon">
+       <i class="fas fa-bars" style="color:rgb(38, 248, 19); font-size:28px;"></i>
+     </span>
+ </button>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto">
-        <li class="item-li">
-          <a class="nav-link" href="#aboutme" id="navhighlight">About</a>
-        </li>
-        <li class="item-li">
-          <a class="nav-link" href="#music">Music</a>
-        </li>
-        <li class="item-li">
-          <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="item-li">
-          <a class="nav-link" href="#footer">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div id="app" style="color: red;"></div>
+ <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+   <ul class="nav justify-content-center" style="margin-left: 22%;">
+    <li class="item-li">
+      <a href="#aboutme" style="text-decoration: none; color: #36ec09;" class="nav-link">About </a>
+    </li>
+    <li class="item-li">
+      <a href="#music" style="text-decoration: none; color: #36ec09;" class="nav-link">Music  </a>
+    </li>
+    <li class="item-li">
+      <a href="#projects" style="text-decoration: none; color: #36ec09;" class="nav-link">Projects  </a>
+    </li>
+    <li class="item-li">
+      <a href="#footer" style="text-decoration: none; color: #36ec09;" class="nav-link">Contact  </a>
+    </li>
+   </ul>
+ </div>
+</nav>
   <section id="home-sec">
     <p class="glow" style="font-family: Montserrat; text-align: center;">Programmer | Musician</p> 
     
     <div class="row">
       <div class="col-3" style="color: #ec0909; font-family: 'Courier New', Courier, monospace;" >
-        <div class="heading" style="border: solid rgb(252, 18, 18); background-color: rgb(84, 236, 24); "> 
+        <div class="heading" style="border: solid rgb(18, 252, 37); background-color: rgb(0, 0, 0); "> 
           <div class='intro'>
             <h1><span style='font-size:50px;'>&#128526;</span></h1>
-            <span class='typing' style="color: rgb(175, 10, 10); font-size: 1.7rem; font-weight: 600;"></span>
+            <span class='typing' style="color: rgb(186, 230, 66); font-size: 1.7rem; font-weight: 600;"></span>
           </div>
         </div>     
       </div>
       <div class="col-5" id="HomepageImage" >
-        <img src="media/HomepageGreen.png" class="rounded img-fluid" style="margin-left: 0%; ">
+        <img src="media/HomepageGreen2.png" class="rounded img-fluid" style="margin-left: 0%;">
       </div>
     </div>
   </section>
@@ -76,11 +76,11 @@
       <h1 class="me">About me</h1>
       <span style="font-family: 'Courier New', Courier, monospace; color: #36ec09; font-size: 1.4rem;"> >> I wish to inspire a positive difference in the world through my music!</span>
         <div class="row" id="about_div">
-          <div class="col-6" style="border-left: 6px solid red;">
+          <div class="col-6" style="border-left: 6px solid rgb(217, 255, 0);">
             <p class="text-left" >
             <br>
 
-            <img src="media/coding.png" alt="" class="img-fluid" style="border-radius: 10% 30% 50% 0%;">
+            <img src="media/coding2.jpg" alt="" class="img-fluid" style="border-radius: 50%;">
           <br>
             </div>
         <div class="col-6">
@@ -157,7 +157,7 @@
         </div>   
         
         <div class="col-4" >
-          <h4 style="color:#58bd3f; font-family:Montserrat ; font-weight: 100; font-size: 20px;" > Dedicated to victims of Asian hate crime</h4>
+          <h4 style="color:#58bd3f; font-family:Montserrat ; font-weight: 100; font-size: 20px;" > Tribute to 2021 victims</h4>
           <iframe allow="fullscreen" width="300" height="300"
           src="https://www.youtube.com/embed/bbg_qhELQFc">
           </iframe>
@@ -240,7 +240,7 @@
         <div class="card-body" >
           <p class="par-projects">Research-based project where I implemented a simple virus detection application using Java (Swing API), Postgres driver, and Heroku.</p>
           <a href="https://github.com/esala1/VirusDetector" target="_blank">
-            <button type="button" class="btn btn-outline-warning btn-lg download-button1"> view in Github</button>
+            <button type="button" class="btn btn-outline-dark btn-lg download-button1"> View in Github</button>
           </a>
         </div>
       </div>
@@ -259,7 +259,7 @@
         <div class="card-body">
           <p class="par-projects">Optimized for mobile devices, this responsive website is developed with HTML, CSS, Bootstrap, and JavaScript.</p>
           <a href="https://github.com/esala1/MyPortfolio" target="_blank">
-            <button type="button" class="btn btn-outline-warning btn-lg download-button1"> view in Github</button>
+            <button type="button" class="btn btn-outline-dark btn-lg download-button1"> View in Github</button>
           </a>
         </div>
       </div>
@@ -276,7 +276,7 @@
             Additionally, I used Genius API to request lyrics for those songs. This app is deployed on Heroku.  
               </p>
               <a href="https://spotifywebapplication.herokuapp.com/" target="_blank">
-                <button type="button" class="btn btn-outline-warning btn-lg download-button1"> view Site</button>
+                <button type="button" class="btn btn-outline-warning btn-lg download-button1"> View Site</button>
               </a>
         </div>
       </div>
@@ -291,10 +291,10 @@
           <p class="par-projects">Individual contributions: Using JavaScript, I implemented Web Speech API to convert speech to text. <br> Team contributions: Designed the webpage and generated responses for the bot to reply.
               </p>
           <a href="https://github.com/esala1/HackGT_7_project_Friendly-Chatbot" target="_blank">
-            <button type="button" class="btn btn-outline-warning btn-lg download-button1"> view in Github</button>
+            <button type="button" class="btn btn-outline-dark btn-lg download-button1"> View in Github</button>
           </a>
           <a href="https://esala1.github.io/HackGT_7_project_Friendly-Chatbot/" target="_blank">
-            <button type="button" class="btn btn-outline-danger btn-lg download-button1"> view Site</button>
+            <button type="button" class="btn btn-outline-warning btn-lg download-button1"> view Site</button>
           </a>
         </div>
       </div>
@@ -304,9 +304,9 @@
 <footer  id="footer">
   <div class="container-fluid">
     <h3 class="wassup-heading" id="contact">Contact me</h3>
-    <a href="https://www.linkedin.com/in/eliyas-sala-0593a5186/" target="_blank"> <button class="download-button1 btn btn-lg btn-success" type="button"> <i id= "cpage" class="fab fa-linkedin-in"></i> Linkedin </button> </a>
-    <a href="https://github.com/esala1" target="_blank"><button class="download-button1 btn btn-lg btn-success" type="button"><i id= "cpage" class="fab fa-github"></i> Github</button></a>
-    <a href = "mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank"><button class="download-button1 btn btn-lg btn-success" type="button"> <i id= "cpage" class="fas fa-envelope"></i> Email me </button></a>
+    <a href="https://www.linkedin.com/in/eliyas-sala-0593a5186/" target="_blank"> <button class="download-button btn btn-lg btn-success" type="button"> <i id= "cpage" class="fab fa-linkedin-in"></i> Linkedin </button> </a>
+    <a href="https://github.com/esala1" target="_blank"><button class="download-button btn btn-lg btn-success" type="button"><i id= "cpage" class="fab fa-github"></i> Github</button></a>
+    <a href = "mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank"><button class="download-button btn btn-lg btn-success" type="button"> <i id= "cpage" class="fas fa-envelope"></i> Email me </button></a>
   </div>
   <div class="container-fluid">
     <p>© Copyright 2020 Eliyas Portfolio</p>
