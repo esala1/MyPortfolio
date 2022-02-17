@@ -146,30 +146,7 @@ p {
 #container:hover .middle {
   opacity: 1;
 }
-#glowMe{
 
-  border-radius: 50px;
-
-  border-bottom-color: #f54223;
-  border-bottom-style: solid;
-  border-bottom-width: 6px;
-
-
-
-  border-top-color: #f54223;
-  border-top-style: solid;
-  border-top-width: 6px;
-
-  border-left-color: #f54223;
-  border-left-style: solid;
-  border-left-width: 6px;
-
-  border-right-color: #f54223;
-  border-right-style: solid;
-  border-right-width: 6px;
-
-  background-color: #f55757;
-}
 .text {
   background-color: #036d03;
   color: rgb(34, 255, 144);
@@ -368,7 +345,7 @@ color: rgb(21, 143, 37);
 
 .glow {
   font-size: 4vw;
-  color: rgb(13, 78, 22);
+  color: rgb(21, 29, 22);
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
 }
@@ -392,11 +369,7 @@ color: rgb(21, 143, 37);
   font-family: Montserrat;
 }
 
-#HomepageImage:hover{
-opacity: 0.7;
 
-
-}
 
 #codeVideo{
   background-color: #08F7FE;
