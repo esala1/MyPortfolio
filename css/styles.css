@@ -89,11 +89,11 @@ p {
 }
 
 .nav-link {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-family: "Montserrat-Light";
   cursor: pointer;
   border-radius: 5px 20px 5px;
-  background: linear-gradient(rgb(3, 5, 0),rgb(0, 0, 0)); 
+
 }
 .nav-link:hover{
   background: linear-gradient(rgb(39, 99, 11),rgb(27, 151, 48));
