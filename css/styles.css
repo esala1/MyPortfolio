@@ -90,7 +90,7 @@ p {
 
 .nav-link {
   font-size: 1.9rem;
-  font-family: "Montserrat-Light";
+  font-family: "sans-serif";
   cursor: pointer;
   border-radius: 5px 20px 5px;
 
@@ -119,9 +119,7 @@ p {
   width: 100%;
 }
 
-#home-sec .container-fluid {
-  padding: 1% 0% 0%;
-}
+
 
 
 /* Image */
@@ -264,10 +262,7 @@ p {
 }
 
 /* tools Section  */
-.exp{
 
-  color:  rgb(66, 233, 121);
-}
 #tools {
   position: relative;
   background-color: #011803;
@@ -280,7 +275,7 @@ p {
   text-decoration-color:rgb(214, 69, 69) ;
 }
 .tool-item {
-  font-size: 2.0rem;
+  font-size: .8 rem;
   color: #ffffff;
 }
 
@@ -316,7 +311,7 @@ color: rgb(21, 143, 37);
   color: rgb(36, 255, 7);
   background-color: rgb(24, 1, 1);
   margin: 25px 10px 15px 20px;
-  text-align: center;
+  text-align: left;
 }
 
 /* Footer Section */
@@ -343,7 +338,7 @@ color: rgb(21, 143, 37);
 
 
 .glow {
-  font-size: 4vw;
+  font-size: 55px;
   color: rgb(21, 29, 22);
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;

@@ -25,8 +25,8 @@
 <body>
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-xl navbar-dark py-0 sticky-top" style="background-color: black;" >
-    <span style="color:rgb(99, 253, 10);font-weight:bold; font-size: 2.2rem;font-family: cursive; text-shadow: 4px 4px 4px rgb(110, 129, 58);margin-left: 2%;"> 
-      <img src="media/logo2.jpg" alt="" style="border-radius: 50% ;" width="27%">
+    <span style="color:rgb(99, 253, 10);font-weight:bold; font-size: 2.2rem;font-family: Brush Script MT; text-shadow: 4px 4px 4px rgb(110, 129, 58);margin-left: 2%;"> 
+      <img src="media/logo2.png" alt="" style="border-radius: 50%; border: 2px solid red;" width="27%">
       Eliyas Sala
     </span> 
   <!--mobile view menu-->  
@@ -37,12 +37,15 @@
  </button>
 
  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-   <ul class="nav justify-content-center" style="margin-left: 22%;">
+   <ul class="nav justify-content-right" style="margin-left: 30%;">
     <li class="item-li">
       <a href="#aboutme" style="text-decoration: none; color: #36ec09;" class="nav-link">About </a>
     </li>
     <li class="item-li">
       <a href="#music" style="text-decoration: none; color: #36ec09;" class="nav-link">Music  </a>
+    </li>
+    <li class="item-li">
+      <a href="#exp" style="text-decoration: none; color: #36ec09;" class="nav-link">Skills  </a>
     </li>
     <li class="item-li">
       <a href="#projects" style="text-decoration: none; color: #36ec09;" class="nav-link">Projects  </a>
@@ -60,8 +63,19 @@
       <div class="col-3" style="color: #ec0909; font-family: 'Courier New', Courier, monospace;" >
         <div class="heading"> 
           <div class='intro'>
-            <h1><span style='font-size:50px;'>&#128526;</span></h1>
+            <h1><span style='font-size:50px'>&#128526;</span></h1>
             <span class='typing' style="color: rgb(186, 230, 66); font-size: 1.7rem; font-weight: 600;"></span>
+
+            <span style="color: transparent;  text-shadow: 0 0 0 rgb(0, 255, 0)">
+              &#9899;
+            </span>
+            <span style="color: transparent;  text-shadow: 0 0 0 rgb(244, 252, 17); ">
+              &#9899;
+            </span>
+            <span style="color: transparent;  text-shadow: 0 0 0 rgb(230, 106, 44); ">
+              &#9899;
+            </span>
+
           </div>
         </div>     
       </div>
@@ -75,15 +89,17 @@
     <div class="container-fluid">
       <h1 class="me">About me</h1>
       <span style="font-family: 'Courier New', Courier, monospace; color: #36ec09; font-size: 1.4rem;"> >> I wish to inspire a positive difference in the world through my music!</span>
-        <div class="row" id="about_div">
-          <div class="col-6" style="border-left: 6px solid rgb(217, 255, 0);">
+        
+      <div class="row" id="about_div">
+          <div class="col-lg-6" style="border-left: 6px solid rgb(217, 255, 0);">
             <p class="text-left" >
             <br>
-
+            <br>
+            <br>
             <img src="media/coding2.jpg" alt="" class="img-fluid" style="border-radius: 50%;">
           <br>
             </div>
-        <div class="col-6">
+        <div class="col-lg-6">
         <p class="text-left" >
           <h2 id="ed">Get to know me</h2>
           <div class="col-sm" style="background-color: #97f856; box-shadow: hsl(59, 81%, 72%);border: 15px solid rgb(7, 12, 8);
@@ -142,7 +158,7 @@
       </div>
       <div  class="col-lg-3">
         <br>
-        <h4 style="color:#58bd3f; font-family: Montserrat ; font-weight: 100; font-size: 20px;" > Singing 1</h4>
+        <h4 style="color:#58bd3f; font-family: Montserrat ; font-weight: 100; font-size: 20px;" > Singing modern pop</h4>
         <iframe allow="fullscreen" width="320" height="300"
         src="https://www.youtube.com/embed/p6ZVQf7bVBg">
         </iframe>       
@@ -171,7 +187,7 @@
 <section id="tools">
 
   <div class="container-fluid">
-  <h1 class="exp">Experience With</h1>
+  <h1 id="exp" style="color:  rgb(66, 233, 121);">Experience With</h1>
     <div class="row" id="animate">
       <div class="feature-box col-lg-4">
         <i class="fab fa-java"></i>
@@ -227,18 +243,18 @@
 <section  id="projects">
   <h1 style="color:  rgb(66, 233, 121); font-family: Montserrat;">Research-based Project</h1>
   <div class="d-flex justify-content-center">
-    <iframe src="Research/OS_ResearchPaper.pdf" width="1000px" height="500px" style="border:5px solid rgb(0, 255, 0);">
+    <iframe src="Research/OS_ResearchPaper.pdf" width="1000px" height="500px" style="border:5px solid rgb(255, 0, 0);">
     </iframe>      
   </div>
   <div class="d-flex justify-content-center">
     <div class="pricing-column col-lg-9" id="researchproject">
-      <div class="card bg-success">
+      <div class="card bg-danger">
         <div class="card-header">
           <h3 style="color:rgb(255, 255, 255);"> Implementation</h3>
           <img src="media/Screenshot2.png" alt="" id="pro1"class="img-fluid">
         </div>
         <div class="card-body" >
-          <p class="par-projects">Research-based project where I implemented a simple virus detection application using Java (JDBC & Swing API), Postgres driver, and Heroku.</p>
+          <p class="par-projects">Research-based project where I implemented a signature-based virus detection application using Java (JDBC & Swing API), Postgres driver, and Heroku.</p>
           <a href="https://github.com/esala1/VirusDetector" target="_blank">
             <button type="button" class="btn btn-outline-dark btn-lg download-button1"> View in Github</button>
           </a>
@@ -250,7 +266,7 @@
  <!--Other projects--> 
 <h1 class="projects" style="color:  rgb(66, 233, 121); font-family: Montserrat;">Other Featured Projects</h1>
   <div class="row" id="projects-row1">
-    <div class="pricing-column col-lg-4" >
+    <div class="pricing-column col-6" >
       <div class="card bg-success">
         <div class="card-header">
           <h3 style="color:rgb(255, 255, 255);"> This Portfolio Website</h3>
@@ -264,40 +280,24 @@
         </div>
       </div>
     </div>
-    <div class="pricing-column col-lg-4">
-      <div class="card bg-success">
+    
+    <div class="pricing-column col-4">
+      <div class="card bg-dark">
         <div class="card-header">
-          <h3 style="color:rgb(255, 255, 255);"> Spotify-based Simple Music Player</h3>
-          <img src="media/Spotifywebapp1.png" alt="" id="pro1"class="img-fluid">
+          <h3 style="color:rgb(255, 255, 255);"> Flutter Android: Podcast App</h3>
+          <img src="media/podcast.jpg" alt="" id="pro1"class="img-fluid">
         </div>
         <div class="card-body" >
-          <p class="par-projects">
-            Developed on Azure virtual machine, this is a Flask web application that uses Spotify's REST API to get my favorite artists' top tracks and display related-information. 
-            Additionally, I used Genius API to request lyrics for those songs. This app is deployed on Heroku.  
+          <p class="par-projects"> <span style="color: red;">Individual contributions:</span>  Implemented and tested ListenNotes Rest API on the home page to retrieve podcast information as per users' requests. 
+            Integrated Google sign-in Authentication in addition to providing general UI design.   <br> 
+            <span style="color: red;">Team contributions: </span>Worked on multiple screens, like the welcome page, and setup other functionalities.
               </p>
-              <a href="https://spotifywebapplication.herokuapp.com/" target="_blank">
-                <button type="button" class="btn btn-outline-warning btn-lg download-button1"> View Site</button>
-              </a>
-        </div>
-      </div>
-    </div>
-    <div class="pricing-column col-lg-4">
-      <div class="card bg-success">
-        <div class="card-header">
-          <h3 style="color:rgb(255, 255, 255);"> Georgia Tech Hackathon Project (HackGT 7): Friendly Chatbot</h3>
-          <img src="media/chatb.png" alt="" id="pro1"class="img-fluid">
-        </div>
-        <div class="card-body" >
-          <p class="par-projects">Individual contributions: Using JavaScript, I implemented Web Speech API to convert speech to text. <br> Team contributions: Designed the webpage and generated responses for the bot to reply.
-              </p>
-          <a href="https://github.com/esala1/HackGT_7_project_Friendly-Chatbot" target="_blank">
-            <button type="button" class="btn btn-outline-dark btn-lg download-button1"> View in Github</button>
+          <a href="https://github.com/CSC4360-Spring22/podcast_app" target="_blank">
+            <button type="button" class="btn btn-outline-danger btn-lg download-button1"> View in Github</button>
           </a>
           <br>
           <br>
-          <a href="https://esala1.github.io/HackGT_7_project_Friendly-Chatbot/" target="_blank">
-            <button type="button" class="btn btn-outline-warning btn-lg download-button1"> view Site</button>
-          </a>
+        
         </div>
       </div>
     </div>
