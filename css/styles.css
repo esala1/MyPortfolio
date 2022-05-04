@@ -321,6 +321,13 @@ color: rgb(21, 143, 37);
 #cpage{
   color: rgb(208, 255, 0);
 }
+/* */
+
+#gettoknowme{
+  font-size: 1000px;
+  color: black;
+  font-size: 1.4rem;
+}
 
 /*media query */
 @media (max-width: 1028px) {
@@ -334,6 +341,69 @@ color: rgb(21, 143, 37);
   }
 }
 
+
+#statement{
+ font-family: 'Courier New', Courier, monospace; 
+ color: #36ec09; font-size: 1.4rem;
+}
+
+#logoText{
+  color:rgb(99, 253, 10);
+  font-weight:bold; 
+  font-size: 2.2rem;
+  font-family: Brush Script MT; 
+  text-shadow: 4px 4px 4px rgb(110, 129, 58);
+  margin-left: 2%;
+}
+
+#navLinks{
+  text-decoration: none; 
+  color: #36ec09;
+}
+#request{
+  font-family: Montserrat;
+}
+/* mobile view */
+@media (max-width: 1000px){
+  #home-sec {
+    display: none;
+  }
+
+  #logo{
+    width: 200px;
+  }
+  #logoText{
+    font-size: 90px;
+  }
+  #navLinks{
+    font-size: 40px;
+  }
+  #statement{
+    font-size: 40px;
+  }
+
+  #ed{
+    display: none;
+  }
+  .me{
+    font-size: 60px;
+  }
+  #gettoknowme{
+    font-size: 40px;
+    color: rgb(9, 1, 1);
+  }
+  #gettoknowmeDiv{
+    width: 1000px;
+    height: 1000px;
+  }
+  #request{
+    font-size: 30px;
+  }
+  .hob{
+    font-size: 40px;
+  }
+
+}
 
 
 

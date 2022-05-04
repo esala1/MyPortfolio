@@ -25,8 +25,8 @@
 <body>
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-xl navbar-dark py-0 sticky-top" style="background-color: black;" >
-    <span style="color:rgb(99, 253, 10);font-weight:bold; font-size: 2.2rem;font-family: Brush Script MT; text-shadow: 4px 4px 4px rgb(110, 129, 58);margin-left: 2%;"> 
-      <img src="media/logo2.png" alt="" style="border-radius: 50%; border: 2px solid red;" width="27%">
+    <span id = "logoText"> 
+      <img id = "logo" src="media/logo2.png" alt="" style="border-radius: 50%; border: 2px solid red;" width="27%">
       Eliyas Sala
     </span> 
   <!--mobile view menu-->  
@@ -39,19 +39,16 @@
  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
    <ul class="nav justify-content-right" style="margin-left: 30%;">
     <li class="item-li">
-      <a href="#aboutme" style="text-decoration: none; color: #36ec09;" class="nav-link">About </a>
+      <a href="#aboutme" id = "navLinks" class="nav-link">About </a>
     </li>
     <li class="item-li">
-      <a href="#music" style="text-decoration: none; color: #36ec09;" class="nav-link">Music  </a>
+      <a href="#music" id = "navLinks" class="nav-link">Music  </a>
     </li>
     <li class="item-li">
-      <a href="#exp" style="text-decoration: none; color: #36ec09;" class="nav-link">Skills  </a>
+      <a href="#projects" id = "navLinks" class="nav-link">Projects  </a>
     </li>
     <li class="item-li">
-      <a href="#projects" style="text-decoration: none; color: #36ec09;" class="nav-link">Projects  </a>
-    </li>
-    <li class="item-li">
-      <a href="#footer" style="text-decoration: none; color: #36ec09;" class="nav-link">Contact  </a>
+      <a href="#footer" id = "navLinks" class="nav-link">Contact  </a>
     </li>
    </ul>
  </div>
@@ -66,13 +63,13 @@
             <h1><span style='font-size:50px'>&#128526;</span></h1>
             <span class='typing' style="color: rgb(186, 230, 66); font-size: 1.7rem; font-weight: 600;"></span>
 
-            <span style="color: transparent;  text-shadow: 0 0 0 rgb(0, 255, 0)">
+            <span style="color: transparent;  text-shadow: 0 0 0 rgb(77, 95, 77)">
               &#9899;
             </span>
-            <span style="color: transparent;  text-shadow: 0 0 0 rgb(244, 252, 17); ">
+            <span style="color: transparent;  text-shadow: 0 0 0 rgba(64, 123, 55, 0.864); ">
               &#9899;
             </span>
-            <span style="color: transparent;  text-shadow: 0 0 0 rgb(230, 106, 44); ">
+            <span style="color: transparent;  text-shadow: 0 0 0 rgb(0, 255, 0) ">
               &#9899;
             </span>
 
@@ -88,7 +85,9 @@
   <section id="aboutme" >
     <div class="container-fluid">
       <h1 class="me">About me</h1>
-      <span style="font-family: 'Courier New', Courier, monospace; color: #36ec09; font-size: 1.4rem;"> >> I wish to inspire a positive difference in the world through my music!</span>
+      <span id =statement> 
+        >> I wish to inspire a positive difference in the world through my music!
+      </span>
         
       <div class="row" id="about_div">
           <div class="col-lg-6" style="border-left: 6px solid rgb(217, 255, 0);">
@@ -102,9 +101,9 @@
         <div class="col-lg-6">
         <p class="text-left" >
           <h2 id="ed">Get to know me</h2>
-          <div class="col-sm" style="background-color: #97f856; box-shadow: hsl(59, 81%, 72%);border: 15px solid rgb(7, 12, 8);
+          <div class="col-sm" id="gettoknowmeDiv" style="background-color: #97f856; box-shadow: hsl(59, 81%, 72%);border: 15px solid rgb(7, 12, 8);
           padding: 10px; margin: 20px; ">
-            <p style="font-size: 1.4rem; color: black; align-items: left" id="gettoknowme">
+            <p style=" align-items: left" id="gettoknowme">
               I am an individual with diverse set of skills who has a background in various industries. As a developer, I have acquired skills in programming languages, 
               frameworks, and other development tools. Also, I am passionate about music producing, singing, and video editing. 
               <br>        
@@ -117,7 +116,12 @@
               <span style="background-color: #88e04d;">Web Programming</span>  
             </p>
           </div>     
-          <a href = "mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank"> <button id="request" style="font-family: Montserrat;">Request My Resume</button></a>
+          <a href = "mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank"> 
+            <button id="request">
+            Request My Resume
+          </button>
+          </a>
+
         </p>
         <br>
         </div>
@@ -288,9 +292,10 @@
           <img src="media/podcast.jpg" alt="" id="pro1"class="img-fluid">
         </div>
         <div class="card-body" >
-          <p class="par-projects"> <span style="color: red;">Individual contributions:</span>  Implemented and tested ListenNotes Rest API on the home page to retrieve podcast information as per users' requests. 
-            Integrated Google sign-in Authentication in addition to providing general UI design.   <br> 
-            <span style="color: red;">Team contributions: </span>Worked on multiple screens, like the welcome page, and setup other functionalities.
+          <p class="par-projects"> 
+            <span style="color: rgb(36, 255, 7);">
+              A podcast app that allows users to search for podcasts and listen to them.
+               <br> 
               </p>
           <a href="https://github.com/CSC4360-Spring22/podcast_app" target="_blank">
             <button type="button" class="btn btn-outline-danger btn-lg download-button1"> View in Github</button>
