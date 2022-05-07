@@ -400,7 +400,7 @@ color: rgb(21, 143, 37);
   color:rgb(99, 253, 10);
   font-weight:bold; 
   font-size: 2.2rem;
-  font-family: Brush Script MT; 
+  font-family: "Brush Script MT", sans-serif;
   text-shadow: 4px 4px 4px rgb(110, 129, 58);
   margin-left: 2%;
 }
@@ -435,7 +435,9 @@ color: rgb(21, 143, 37);
   #home-sec {
     display: none;
   }
-
+  #ytButton{
+    display: none;
+  }
   #logo{
     width: 200px;
   }
@@ -474,6 +476,7 @@ color: rgb(21, 143, 37);
 
 
 
+
 .glow {
   font-size: 55px;
   color: rgb(21, 29, 22);
@@ -498,10 +501,8 @@ color: rgb(21, 143, 37);
 }
 #contact{
   font-family: Montserrat;
+  margin-left: 90px;
 }
-
-
-
 
 .heading h3 {
   color: rgb(0, 0, 0);
