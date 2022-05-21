@@ -26,7 +26,7 @@
 
 <body>
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-xl navbar-dark py-0 sticky-top" style="background-color: black;">
+  <nav class="navbar navbar-expand-xl navbar-dark py-0 sticky-top">
     <span id="logoText">
       <img id="logo" src="media/logo2.png" alt="" style="border-radius: 50%;" width="27%">
       Eliyas Sala
@@ -106,33 +106,34 @@
         </div>
         <div class="col-lg-6">
           <p class="text-left">
-          <div class="col-sm" id="gettoknowmeDiv" style="background-color: #97f856; box-shadow: hsl(59, 81%, 72%);border: 15px solid rgb(7, 12, 8);
-          padding: 10px; margin: 20px; ">
+          <div class="col" id="gettoknowmeDiv">
             <p style=" align-items: left" id="gettoknowme">
-              I am an individual with diverse set of skills who has a background in various industries. As a developer,
-              I have acquired skills in programming languages,
-              frameworks, and other development tools. Also, I am passionate about music producing, singing, and video
-              editing.
+                An individual with diverse set of skills, Mr. Sala has experiences in software development, 
+                music production, and video editing. 
               <br>
+              <span id="relatedCourses">
               <span style="color: black; text-decoration: underline;font-weight: 600;">Related Coursework</span>
               <br>
-              <span style="background-color: #88e04d;">Data Structures & Algorithms </span>,
-              <span style="background-color: #88e04d;">Software Engineering</span>,
-              <span style="background-color: #88e04d;">Mobile App Development</span>,
-              <span style="background-color: #88e04d;">Data Science</span>,
-              <span style="background-color: #88e04d;">Web Programming</span>
+                <span style="background-color: #88e04d;">Data Structures & Algorithms </span>,
+                <span style="background-color: #88e04d;">Software Engineering</span>,
+                <span style="background-color: #88e04d;">Mobile App Development</span>,
+                <span style="background-color: #88e04d;">Data Science</span>,
+                <span style="background-color: #88e04d;">Web Programming</span>
+            </span>
             </p>
           </div>
+
           <a href="mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank">
             <button id="request">
               Request Resume
             </button>
           </a>
-
           </p>
           <br>
         </div>
       </div>
+      <br>
+      
       <br>
       <br>
       <h1 class="hob"> Audio Engineer/ Music Producer/ Artist | Home-based Music Studio </h1>
@@ -246,7 +247,7 @@
   <!-- Projects -->
   <!-- Research -->
   <section id="projects">
-    <h1 style="color:  rgb(66, 233, 121); font-family: Montserrat;">Research-based Project</h1>
+    <h1 id="researchTitle">Research-based Project</h1>
     <div class="d-flex justify-content-center">
       <iframe src="Research/OS_ResearchPaper.pdf" id="researchFrame">
         
@@ -256,7 +257,7 @@
       <div class="pricing-column col-lg-9">
         <div class="card bg-danger">
           <div class="card-header">
-            <h3 style="color:rgb(255, 255, 255);"> Implementation</h3>
+            <h3 id="subTitleProjects"> Implementation</h3>
             <img src="media/Screenshot2.png" alt="" id="pro1" class="img-fluid">
           </div>
           <div class="card-body">
@@ -271,12 +272,12 @@
     </div>
     <br>
    <!--Other projects-->
-   <h1 class="projects" style="color:  rgb(66, 233, 121); font-family: Montserrat;">Other Featured Projects</h1>
+   <h1 id="researchTitle">Other Featured Projects</h1>
    <div class="row d-flex justify-content-center" id="projects-row1">
      <div class="pricing-column col-lg-4">
        <div class="card bg-success">
          <div class="card-header">
-           <h3 style="color:rgb(255, 255, 255);"> This Portfolio Website</h3>
+           <h3 id="subTitleProjects"> This Portfolio Website</h3>
            <img src="media/SelfPic.jpg" alt="" id="pro1" class="img-fluid">
          </div>
          <div class="card-body">
@@ -292,7 +293,7 @@
      <div class="pricing-column col-lg-4">
        <div class="card bg-dark">
          <div class="card-header">
-           <h3 style="color:rgb(255, 255, 255);"> Flutter Android: Podcast App</h3>
+           <h3 id="subTitleProjects"> Flutter Android: Podcast App</h3>
            <img src="media/podcast.jpg" alt="" id="pro1" class="img-fluid" style="width: 1280px; ">
          </div>
          <div class="card-body">
@@ -321,17 +322,36 @@
         <div class="row d-flex justify-content-center">
           <div class="col-lg-4">
             <a href="https://www.linkedin.com/in/eliyas-sala-0593a5186/" target="_blank"> <button
-                class="download-button btn btn-lg btn-dark" type="button"> <i id="cpage" class="fab fa-linkedin-in"></i>
-                Linkedin </button> </a>
+                class="download-button btn btn-lg btn-dark" type="button"> 
+                <i id="cpage" class="fab fa-linkedin-in"></i>
+                <br>
+                <span id="contactText">  
+                  Linkedin 
+                </span>
+              </button> 
+            </a>
           </div>
           <div class="col-lg-4" >
-            <a href="https://github.com/esala1" target="_blank"><button class="download-button btn btn-lg btn-dark"
-                type="button"><i id="cpage" class="fab fa-github"></i> Github</button></a>
+            <a href="https://github.com/esala1" target="_blank">
+              <button class="download-button btn btn-lg btn-dark" type="button">
+                <i id="cpage" class="fab fa-github"> </i> 
+                <br>
+                <span id="contactText">  
+                  Github
+                </span>
+              </button>
+            </a>
           </div>
           <div class="col-lg-4">
-            <a href="mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank"><button
-                class="download-button btn btn-lg btn-dark" type="button"> <i id="cpage" class="fas fa-envelope"></i>
-                Email me </button></a>
+            <a href="mailto:eliyas54045@gmail.com?subject = Feedback&body = Message" target="_blank">
+              <button class="download-button btn btn-lg btn-dark" type="button"> 
+                <i id="cpage" class="fas fa-envelope"></i>
+                <br>
+                <span id="contactText">  
+                  Email me 
+                </span>
+              </button>
+            </a>
           </div>
         </div>
 
