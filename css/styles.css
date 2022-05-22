@@ -361,7 +361,7 @@ color: rgb(21, 143, 37);
   display: none;
 }
 #exp{
-  color:  rgb(0, 0, 0);
+  color:  rgb(213, 213, 213);
 }
 nav{
   background-color: black;
@@ -463,7 +463,7 @@ nav{
   
   
   #exp{
-    color:  rgb(0, 0, 0);
+    color:  rgb(237, 231, 231);
     font-size: 4em;
   }
   .tool-item{
@@ -497,7 +497,7 @@ nav{
   }
  
   #navLinks{
-    font-size: 2.2em;
+    font-size: 2.8em;
     color: white;
   }
   #statement{
