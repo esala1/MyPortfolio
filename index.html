@@ -33,9 +33,7 @@
     </span>
     <!--mobile view menu-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-      <span class="navbar-toggler-icon">
         <i class="fas fa-bars" id = "navIcon"></i>
-      </span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -61,17 +59,17 @@
   <section id="home-sec">
     <p class="glow" style="font-family: Montserrat; text-align: center;">Programmer | Musician | Artist</p>
 
-    <div class="row">
-      <div class="col-3" style="color: #ec0909; font-family: 'Courier New', Courier, monospace;">
+    <div class="row d-flex justify-content-center">
+      <div class="col" style="color: #ec0909; font-family: 'Courier New', Courier, monospace;">
         <div class="heading">
           <div class='intro'>
-            <h1><span style='font-size:50px'>&#128526;</span></h1>
-            <span class='typing' style="color: rgb(186, 230, 66); font-size: 1.7rem; font-weight: 600;"></span>
 
-            <span style="color: transparent;  text-shadow: 0 0 0 rgb(77, 95, 77)">
+            <span class='typing' style="color: rgb(0, 0, 0); font-size: 1.7rem; font-weight: 600;"></span>
+
+            <span style="color: transparent;  text-shadow: 0 0 0 rgb(23, 98, 0)">
               &#9899;
             </span>
-            <span style="color: transparent;  text-shadow: 0 0 0 rgba(70, 199, 50, 0.864); ">
+            <span style="color: transparent;  text-shadow: 0 0 0 rgba(64, 150, 50, 0.864); ">
               &#9899;
             </span>
             <span style="color: transparent;  text-shadow: 0 0 0 rgb(0, 255, 0) ">
@@ -80,14 +78,15 @@
           </div>
         </div>
       </div>
-
-
-      <div id="HomepageImage">
-        <img src="media/art.jpg" class="rounded img-fluid" id="welcomeImage">
+    </div>
+    
+    <div class="row d-flex justify-content-left">
+      <div class="col-lg-8">
+        <img src="media/art.png" class="rounded img-fluid" id="welcomeImage">
       </div>
-
     </div>
   </section>
+
   <!--About me-->
   <section id="aboutme">
     <div class="container-fluid">
@@ -101,7 +100,8 @@
           <p class="text-left">
             <br>
             <img src="media/coding2.jpg" alt="" class="img-fluid" style="border-radius: 70%;" id="codingImage">
-            <img src="media/art.jpg" class="rounded img-fluid" id="welcomeImage2">
+            <img src="media/art.png" class="rounded img-fluid" id="welcomeImage2">
+            
             <br>
         </div>
         <div class="col-lg-6">
@@ -114,11 +114,11 @@
               <span id="relatedCourses">
               <span style="color: black; text-decoration: underline;font-weight: 600;">Related Coursework</span>
               <br>
-                <span style="background-color: #88e04d;">Data Structures & Algorithms </span>,
-                <span style="background-color: #88e04d;">Software Engineering</span>,
-                <span style="background-color: #88e04d;">Mobile App Development</span>,
-                <span style="background-color: #88e04d;">Data Science</span>,
-                <span style="background-color: #88e04d;">Web Programming</span>
+                <span style="background-color: #14C38E;">Data Structures & Algorithms </span>,
+                <span style="background-color: #14C38E;">Software Engineering</span>,
+                <span style="background-color: #14C38E;">Mobile App Development</span>,
+                <span style="background-color: #14C38E;">Data Science</span>,
+                <span style="background-color: #14C38E;">Web Programming</span>
             </span>
             </p>
           </div>
@@ -129,7 +129,6 @@
             </button>
           </a>
           </p>
-          <br>
         </div>
       </div>
       <br>
@@ -140,7 +139,7 @@
       <div id="music" class="row row justify-content-center">
         <div class="col-lg-6">
           <a href="https://www.youtube.com/channel/UCedb9NiwPm4vonjieBZ1hTA/featured" target="_blank"> 
-            <button class="btn btn-outline-danger btn-lg" id="ytButton">YouTube Channel
+            <button class="btn btn-outline-dark btn-lg" id="ytButton">YouTube Channel
             </button> 
           </a>
           <div class="card-header">
@@ -298,7 +297,6 @@
          </div>
          <div class="card-body">
            <p class="par-projects">
-             <span style="color: rgb(36, 255, 7);">
                A podcast app that allows users to search/listen to podcasts.
                <br>
            </p>

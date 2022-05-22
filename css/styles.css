@@ -111,30 +111,31 @@ p {
 /* homepage Section */
 
 #home-sec {
-  background: linear-gradient(rgb(11, 195, 36),black,black,black,black,black,black,black,rgb(0, 7, 0),rgb(0, 0, 0), rgb(0, 0, 0), black);
+  background: #E3FCBF;
   height: 100%;
   width: 100%;
+  
 }
 #HomepageImage{
-  background-color:rgb(12, 177, 111);
-   border-radius: 15px 50px 30px 5px;
+  background-color:#E3FCBF;
+  border-radius: 15px 50px 30px 5px;
 }
 #HomepageImage:hover{
-  background: linear-gradient(black,rgb(0, 0, 0));
+  background: #E3FCBF;
 }
 
 #welcomeImage{
-  margin-left: 50%; 
-  border-top: solid rgb(0, 0, 0) 8px; 
-  border-bottom: solid rgb(0, 0, 0) 8px; 
-  border-right: solid rgb(0, 0, 0) 8px; 
-  border-left: solid rgb(0, 0, 0) 8px; 
-  opacity: .4;
+  margin-left: 37%; 
+  border-top: solid #14C38E 8px; 
+  border-bottom: solid #14C38E 8px; 
+  border-right: solid #14C38E 8px; 
+  border-left: solid #14C38E 8px; 
+  opacity: .9;
   height: 500px;
-  width: 480px;
+  width: 700px;
 }
 #welcomeImage:hover{
-  margin-left: 50%; 
+  margin-left: 37%; 
   border-top: solid rgb(87, 255, 40) 8px; 
   border-bottom: solid rgb(87, 255, 40) 8px; 
   border-right:solid rgb(87, 255, 40) 8px; 
@@ -202,7 +203,7 @@ p {
   color: #08F7FE;
 }
 #aboutme{
-  background-color: #011803;
+  background-color: #14C38E;
   margin-bottom: 0px;
 }
 
@@ -224,11 +225,11 @@ p {
   border-radius: 40%;
 }
 #request {
-  background-color: #1c87c9;
+  background-color: red;
   -webkit-border-radius: 60px;
   border-radius: 60px;
   border: none;
-  color: #080808;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-family: Montserrat;
@@ -243,39 +244,26 @@ p {
   font-size: 15px;
 }
 
-#play{
-    background-color: #58bd3f;
-    -webkit-border-radius: 60px;
-    border-radius: 60px;
-    border: none;
-    color: #080808;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Montserrat;
-    font-size: 20px;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-}
+
 @keyframes glowing {
   0% {
-    background-color: #2ba805;
-    box-shadow: 0 0 5px #2ba805;
+    background-color: #000000;
+    box-shadow: 0 0 5px #000000;
   }
   50% {
-    background-color: #49e819;
-    box-shadow: 0 0 20px #49e819;
+    background-color: #304d27;
+    box-shadow: 0 0 20px #465b40;
   }
   100% {
-    background-color: #2ba805;
-    box-shadow: 0 0 5px #2ba805;
+    background-color: #2a3a25;
+    box-shadow: 0 0 5px #648759;
   }
 }
 #request {
   animation: glowing 1300ms infinite;
 }
 .hob{
-  color: #dad1d1;
+  color: #000000;
   font-size: 35px;
 }
 #hob1{
@@ -294,9 +282,8 @@ p {
 }
 .me{
   font-size: 50px;
-  text-decoration: none;
-  color: rgb(22, 253, 1);
-  text-decoration-color:rgb(214, 69, 69) ;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -334,8 +321,8 @@ color: rgb(21, 143, 37);
 }
 
 .par-projects{
-  color: rgb(36, 255, 7);
-  background-color: rgb(24, 1, 1);
+  color: black;
+  background-color: #E3FCBF;
   margin: 25px 10px 15px 20px;
   text-align: left;
 }
@@ -351,10 +338,10 @@ color: rgb(21, 143, 37);
 /* */
 
 #gettoknowme{
-  font-size: 1000px;
+  font-size: 55px;
   color: black;
   font-size: 1.4rem;
-  background-color: #97f856; 
+  background-color: #E3FCBF; 
   box-shadow: hsl(59, 81%, 72%);
   border: 15px solid rgb(7, 12, 8);
   padding: 10px; margin: 20px;
@@ -367,7 +354,7 @@ color: rgb(21, 143, 37);
 }
 
 #about_div{
-  border-left: 6px solid rgb(217, 255, 0);
+  border-left: 6px solid rgb(0, 0, 0);
 }
 
 #welcomeImage2{
@@ -379,29 +366,24 @@ color: rgb(21, 143, 37);
 nav{
   background-color: black;
 }
+
 /*media query */
 @media (max-width: 1028px) {
+ 
   .par-projects{
-    color: rgb(36, 255, 7);
-    background-color: rgb(24, 1, 1);
+    color: black;
+    background-color: #E3FCBF;
     margin: 25px 10px 15px 20px;
     text-align: left;
     font-size: 45px;
   }
 
   #welcomeImage2{
-    display: inline;
-    opacity: .8;
+  display: none;
   }
-
-  #codingImage{
-    display: none;
-  }
-
   #home-sec {
     text-align: center;
   }
-
   .home-sec-image {
     position: static;
   }
@@ -410,7 +392,8 @@ nav{
 
 #statement{
  font-family: 'Courier New', Courier, monospace; 
- color: #36ec09; font-size: 1.4rem;
+ color: #000000; font-size: 1.4rem;
+ background-color: #E3FCBF;
 }
 
 #logoText{
@@ -441,6 +424,12 @@ nav{
 }
 /* mobile view */
 @media (max-width: 1000px){
+  #welcomeImage2{
+  display: inline;
+  }
+  #codingImage{
+    display: none;
+  }
   #contactText{
     font-size: 50px;
   }
@@ -458,13 +447,13 @@ nav{
    display: none;
  }
   #aboutme{
-    background-color: #000000;
+    background-color: #E3FCBF;
     margin-bottom: 0px;
   }  
   
   #about_div{
-    border-left: 6px solid rgb(55, 255, 255);
-    border-right: 6px solid rgb(55, 255, 255);
+    border-left: 6px solid #14C38E;
+    border-right: 6px solid #14C38E;
   }
   #exp{
     color:  rgb(66, 233, 121);
@@ -515,17 +504,15 @@ nav{
   .me{
     font-size: 80px;
     text-decoration: none;
-    color: #a1f8d4;
+    color: #000000;
     text-decoration-color:rgb(214, 69, 69) ;
   }
 
   #gettoknowme{
-    font-size: 60px;
+    font-size: 55px;
     color: black;
-    background-color: #56f8ad; 
-    box-shadow: hsl(59, 81%, 72%);
-    border: 1px solid rgb(7, 12, 8);
-    padding: 1px; margin: 2px;
+    background-color: #14C38E; 
+    
   }
   
   #gettoknowmeDiv{
