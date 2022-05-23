@@ -282,7 +282,7 @@ p {
 }
 .me{
   font-size: 50px;
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(0, 0, 0);
 }
 
@@ -564,3 +564,25 @@ nav{
   display: none;
 }
 
+/* carousel indicators */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  border: 2px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rgb(0, 0, 0);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(0, 0, 0);
+}
