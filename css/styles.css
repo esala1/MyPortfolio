@@ -436,7 +436,7 @@ nav{
 @media (max-width: 1000px){
   #pianoPic{
     display: block;
-    border-radius: 20%;
+    width: 1000px;
   }
   #nameLogo{
     margin-left: 40px;
