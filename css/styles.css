@@ -343,7 +343,7 @@ color: rgb(21, 143, 37);
   font-size: 1.4rem;
   background-color: #E3FCBF; 
   box-shadow: hsl(59, 81%, 72%);
-  border: 15px solid rgb(7, 12, 8);
+  border: 5px solid rgb(0, 0, 0);
   padding: 10px; margin: 20px;
 }
 
@@ -369,9 +369,14 @@ nav{
 #navList{
   margin-left: 10%;
 }
+#pianoPic{
+  display: none;
+}
 /*media query */
 @media (max-width: 1028px) {
- 
+  #pianoPic{
+    display: none;
+  }
   .par-projects{
     color: black;
     background-color: #E3FCBF;
@@ -424,8 +429,16 @@ nav{
 #subTitleProjects{
   color:rgb(255, 255, 255);
 }
+#pianoPic{
+  display: none;
+}
 /* mobile view */
 @media (max-width: 1000px){
+  #pianoPic{
+    display: block;
+    border-left: #62fe08 solid 10px;
+    border-bottom: #62fe08 solid 20px;
+  }
   #nameLogo{
     margin-left: 40px;
     font-family: 'Courier New', Courier, monospace;
@@ -435,7 +448,7 @@ nav{
     display: inline;
   }
   #welcomeImage2{
-  display: inline;
+  display: none;
   }
   #codingImage{
     display: none;
@@ -508,7 +521,7 @@ nav{
     display: none;
   }
   .me{
-    font-size: 4.4em;
+    font-size: 4.6em;
     text-decoration: none;
     color: #000000;
     text-decoration-color:rgb(214, 69, 69) ;
@@ -517,7 +530,7 @@ nav{
   #gettoknowme{
     font-size: 3.6em;
     color: black;
-    background-color: #14C38E; 
+    background-color: #ffffff; 
     
   }
   
