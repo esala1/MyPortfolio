@@ -322,7 +322,7 @@ color: rgb(21, 143, 37);
 
 .par-projects{
   color: black;
-  background-color: #E3FCBF;
+  background-color: #ffffff;
   margin: 25px 10px 15px 20px;
   text-align: left;
 }
@@ -350,7 +350,7 @@ color: rgb(21, 143, 37);
 #researchFrame{
   width: 1000px;
   height: 500px;
-  border:5px solid rgb(255, 0, 0);
+  border:5px solid rgb(49, 255, 252);
 }
 
 #about_div{
@@ -379,7 +379,7 @@ nav{
   }
   .par-projects{
     color: black;
-    background-color: #E3FCBF;
+    background-color: #ffffff;
     margin: 25px 10px 15px 20px;
     text-align: left;
     font-size: 45px;
@@ -434,6 +434,9 @@ nav{
 }
 /* mobile view */
 @media (max-width: 1000px){
+  #Github_link{
+    font-size: 2.4em;
+  }
   #pianoPic{
     display: block;
     width: 1000px;
