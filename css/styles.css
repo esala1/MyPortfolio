@@ -444,10 +444,11 @@ nav{
   #nameLogo{
     margin-left: 40px;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(150, 234, 137);
+    color: rgb(255, 255, 255);
   }
   #logo{
     display: inline;
+    margin-left: 0px;
   }
   #welcomeImage2{
   display: none;
