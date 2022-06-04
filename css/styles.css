@@ -367,13 +367,19 @@ nav{
   background-color: black;
 }
 #navList{
-  margin-left: 10%;
+  margin-left: 25%;
 }
 #pianoPic{
   display: none;
 }
+@media (max-width: 1500px) {
+  #navList{
+    margin-left: 7%;
+  }
+}
 /*media query */
 @media (max-width: 1028px) {
+  
   #pianoPic{
     display: none;
   }
@@ -434,6 +440,9 @@ nav{
 }
 /* mobile view */
 @media (max-width: 1000px){
+  #navList{
+    margin-left: 10%;
+  }
   #Github_link{
     font-size: 2.4em;
   }
